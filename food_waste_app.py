@@ -293,6 +293,20 @@ sns.barplot(x='Importance', y='Feature', data=feat_imp_df)
 plt.title("Feature Importance (Random Forest)")
 plt.show()
 
+
+# ===============================
+# Outro Section
+# ===============================
+st.markdown("""
+<div style='text-align: center; padding: 20px; background-color: #f0f2f6; border-radius: 15px; margin-top: 40px;'>
+    <h3 style='color: #4CAF50; font-family: "Courier New", Courier, monospace;'>
+        Thank you for using this app!<br>
+        <span style='font-size: 18px;'>Developed with ❤️ by <strong>Akhil</strong></span>
+    </h3>
+</div>
+""", unsafe_allow_html=True)
+
+
 # ===============================
 # Step 9: Interpretation of Results & Saving Files
 # ===============================
@@ -325,5 +339,6 @@ with open('scaler.pkl', 'wb') as f:
 # Save the LabelEncoders
 with open('label_encoders.pkl', 'wb') as f:
     pickle.dump(label_encoders, f)
+
 
 print("Model, scaler, and label encoders saved successfully!")
