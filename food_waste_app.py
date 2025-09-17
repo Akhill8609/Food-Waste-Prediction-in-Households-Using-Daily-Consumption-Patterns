@@ -1,5 +1,5 @@
 # ===============================
-# Complete Food Waste Prediction Project (Streamlit App with Dataset Generation)
+# Complete Food Waste Prediction Project (Streamlit App with Ultra-Rare & Diverse Dataset)
 # ===============================
 
 import streamlit as st
@@ -12,13 +12,14 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 # ===============================
 # 1️⃣ Dataset Generation if not exists
 # ===============================
-dataset_file = 'food_waste_app.csv'
+dataset_file = 'food_waste_dataset.csv'
 
 if not os.path.exists(dataset_file):
-    st.info("Dataset not found. Generating new dataset with 1000 unique entries...")
+    st.info("Dataset not found. Generating ultra-rare and diverse dataset with 1000 entries + rare samples...")
 
-    # Dataset parameters
     num_samples = 1000
+
+    # Feature definitions
     meal_types = ['Vegetarian', 'Non-Vegetarian', 'Mixed']
     shopping_habits = ['Daily', 'Weekly', 'Bulk Buying']
     storage_options = ['Small', 'Medium', 'Large']
@@ -26,11 +27,13 @@ if not os.path.exists(dataset_file):
     leftover_freq = ['Rarely', 'Sometimes', 'Often']
     income_ranges = ['Low', 'Medium', 'High']
     cooking_preferences = ['Fresh Daily', 'Batch Cooking']
+    cuisine_preferences = ['South Indian', 'North Indian', 'Chinese', 'Italian', 'Fusion', 'Street Food']
+    perishability_awareness = ['Not aware', 'Somewhat aware', 'Very aware']
+    seasonal_variations = ['Summer', 'Monsoon', 'Winter', 'All year']
 
-    # Random seed for reproducibility
     np.random.seed(42)
 
-    # Create DataFrame
+    # Generate base dataset
     df = pd.DataFrame({
         'Household_Size': np.random.randint(1, 7, num_samples),
         'Daily_Meal_Count': np.random.randint(1, 4, num_samples),
@@ -40,25 +43,49 @@ if not os.path.exists(dataset_file):
         'Awareness_of_Waste_Management': np.random.choice(awareness_levels, num_samples),
         'Leftovers_Frequency': np.random.choice(leftover_freq, num_samples),
         'Income_Range': np.random.choice(income_ranges, num_samples),
-        'Cooking_Preference': np.random.choice(cooking_preferences, num_samples)
+        'Cooking_Preference': np.random.choice(cooking_preferences, num_samples),
+        'Cultural_Cuisine_Preference': np.random.choice(cuisine_preferences, num_samples),
+        'Perishability_Awareness': np.random.choice(perishability_awareness, num_samples),
+        'Seasonal_Variation': np.random.choice(seasonal_variations, num_samples)
     })
 
-    # Compute Food Waste
-    baseline_waste = 0.5 + df['Household_Size'] * 0.2 + df['Daily_Meal_Count'] * 0.15
-    waste_adjustments = np.zeros(num_samples)
+    # Rare samples
+    rare_samples = pd.DataFrame({
+        'Household_Size': [1, 6, 4],
+        'Daily_Meal_Count': [3, 2, 4],
+        'Meal_Type': ['Mixed', 'Non-Vegetarian', 'Vegetarian'],
+        'Shopping_Habit': ['Bulk Buying', 'Daily', 'Weekly'],
+        'Storage_Availability': ['Small', 'Large', 'Medium'],
+        'Awareness_of_Waste_Management': ['Low', 'High', 'Medium'],
+        'Leftovers_Frequency': ['Often', 'Rarely', 'Sometimes'],
+        'Income_Range': ['Low', 'High', 'Medium'],
+        'Cooking_Preference': ['Fresh Daily', 'Batch Cooking', 'Fresh Daily'],
+        'Cultural_Cuisine_Preference': ['Street Food', 'Italian', 'Fusion'],
+        'Perishability_Awareness': ['Not aware', 'Very aware', 'Somewhat aware'],
+        'Seasonal_Variation': ['Summer', 'Monsoon', 'Winter']
+    })
 
-    waste_adjustments += df['Shopping_Habit'].apply(lambda x: 0.8 if x == 'Bulk Buying' else 0)
-    waste_adjustments += df['Awareness_of_Waste_Management'].apply(lambda x: -0.5 if x == 'High' else 0.5 if x == 'Low' else 0)
-    waste_adjustments += df['Leftovers_Frequency'].apply(lambda x: 0.7 if x == 'Often' else -0.4 if x == 'Rarely' else 0)
-    waste_adjustments += df['Cooking_Preference'].apply(lambda x: 0.2 if x == 'Fresh Daily' else 0)
-    waste_adjustments += df['Storage_Availability'].apply(lambda x: -0.2 if x == 'Large' else 0.2 if x == 'Small' else 0)
+    df = pd.concat([df, rare_samples], ignore_index=True)
 
-    random_noise = np.random.uniform(-0.5, 0.5, num_samples)
-    df['Food_Waste_kg_per_Week'] = np.maximum(0.1, baseline_waste + waste_adjustments + random_noise)
+    # Calculate Food Waste
+    baseline = 0.4 + df['Household_Size'] * 0.25 + df['Daily_Meal_Count'] * 0.1
+
+    adjustments = np.zeros(len(df))
+    adjustments += df['Shopping_Habit'].apply(lambda x: 1.0 if x == 'Bulk Buying' else 0.5 if x == 'Weekly' else 0)
+    adjustments += df['Awareness_of_Waste_Management'].apply(lambda x: -0.6 if x == 'High' else 0.6 if x == 'Low' else 0.2)
+    adjustments += df['Leftovers_Frequency'].apply(lambda x: 0.7 if x == 'Often' else -0.3 if x == 'Rarely' else 0.2)
+    adjustments += df['Cooking_Preference'].apply(lambda x: 0.2 if x == 'Fresh Daily' else 0)
+    adjustments += df['Storage_Availability'].apply(lambda x: -0.3 if x == 'Large' else 0.2 if x == 'Small' else 0)
+    adjustments += df['Cultural_Cuisine_Preference'].apply(lambda x: 0.5 if x == 'Street Food' else 0)
+    adjustments += df['Perishability_Awareness'].apply(lambda x: -0.4 if x == 'Very aware' else 0 if x == 'Somewhat aware' else 0.4)
+    adjustments += df['Seasonal_Variation'].apply(lambda x: 0.2 if x == 'Summer' else 0.3 if x == 'Monsoon' else 0.1 if x == 'Winter' else 0)
+
+    noise = np.random.uniform(-0.3, 0.3, len(df))
+    df['Food_Waste_kg_per_Week'] = np.maximum(0.1, baseline + adjustments + noise)
 
     # Save dataset
     df.to_csv(dataset_file, index=False)
-    st.success("Dataset generated successfully!")
+    st.success("Ultra-rare and diverse dataset generated successfully!")
 
 # ===============================
 # 2️⃣ Load Dataset
@@ -71,7 +98,6 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# Dataset preview with fixed height and scroll
 st.subheader("Dataset Preview")
 st.dataframe(df, use_container_width=True, height=400)
 
@@ -80,9 +106,9 @@ st.subheader("Average Food Waste by Meal Type")
 avg_by_meal = df.groupby('Meal_Type')['Food_Waste_kg_per_Week'].mean()
 st.bar_chart(avg_by_meal)
 
-st.subheader("Average Food Waste by Household Size")
-avg_by_household = df.groupby('Household_Size')['Food_Waste_kg_per_Week'].mean()
-st.line_chart(avg_by_household)
+st.subheader("Average Food Waste by Cultural Cuisine Preference")
+avg_by_cuisine = df.groupby('Cultural_Cuisine_Preference')['Food_Waste_kg_per_Week'].mean()
+st.bar_chart(avg_by_cuisine)
 
 # ===============================
 # 3️⃣ User Input
@@ -90,7 +116,7 @@ st.line_chart(avg_by_household)
 st.subheader("Predict Food Waste for Your Household")
 
 household_size = st.number_input("Household Size (1-6)", min_value=1, max_value=6, value=3)
-daily_meals = st.number_input("Daily Meal Count (1-3)", min_value=1, max_value=3, value=2)
+daily_meals = st.number_input("Daily Meal Count (1-4)", min_value=1, max_value=4, value=2)
 meal_type = st.selectbox("Meal Type", df['Meal_Type'].unique())
 shopping_habit = st.selectbox("Shopping Habit", df['Shopping_Habit'].unique())
 storage = st.selectbox("Storage Availability", df['Storage_Availability'].unique())
@@ -98,9 +124,12 @@ awareness = st.selectbox("Awareness of Waste Management", df['Awareness_of_Waste
 leftovers = st.selectbox("Leftovers Frequency", df['Leftovers_Frequency'].unique())
 income = st.selectbox("Income Range", df['Income_Range'].unique())
 cooking_pref = st.selectbox("Cooking Preference", df['Cooking_Preference'].unique())
+cuisine_pref = st.selectbox("Cultural Cuisine Preference", df['Cultural_Cuisine_Preference'].unique())
+perishability = st.selectbox("Perishability Awareness", df['Perishability_Awareness'].unique())
+seasonal_var = st.selectbox("Seasonal Variation", df['Seasonal_Variation'].unique())
 
 # ===============================
-# 4️⃣ Load Model, Scaler, Encoders or train if missing
+# 4️⃣ Load or Train Model
 # ===============================
 model_file = 'rf_model.pkl'
 scaler_file = 'scaler.pkl'
@@ -110,13 +139,16 @@ train_required = not (os.path.exists(model_file) and os.path.exists(scaler_file)
 
 if train_required:
     st.info("Model not found! Training model...")
+
     from sklearn.model_selection import train_test_split
     from sklearn.ensemble import RandomForestRegressor
 
-    # Encode categorical columns
-    categorical_cols = ['Meal_Type','Shopping_Habit','Storage_Availability',
-                        'Awareness_of_Waste_Management','Leftovers_Frequency',
-                        'Income_Range','Cooking_Preference']
+    categorical_cols = [
+        'Meal_Type','Shopping_Habit','Storage_Availability',
+        'Awareness_of_Waste_Management','Leftovers_Frequency',
+        'Income_Range','Cooking_Preference','Cultural_Cuisine_Preference',
+        'Perishability_Awareness','Seasonal_Variation'
+    ]
 
     label_encoders = {}
     df_encoded = df.copy()
@@ -125,23 +157,18 @@ if train_required:
         df_encoded[col] = le.fit_transform(df[col])
         label_encoders[col] = le
 
-    # Features and target
     X = df_encoded.drop('Food_Waste_kg_per_Week', axis=1)
     y = df_encoded['Food_Waste_kg_per_Week']
 
-    # Scale numeric columns
     numeric_cols = ['Household_Size', 'Daily_Meal_Count']
     scaler = StandardScaler()
     X[numeric_cols] = scaler.fit_transform(X[numeric_cols])
 
-    # Train-test split
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-    # Train model
     rf_model = RandomForestRegressor(n_estimators=100, random_state=42)
     rf_model.fit(X_train, y_train)
 
-    # Save model, scaler, encoders
     with open(model_file, 'wb') as f:
         pickle.dump(rf_model, f)
 
@@ -153,7 +180,7 @@ if train_required:
 
     st.success("Model trained and saved!")
 
-# Load existing model files
+# Load the model
 with open(model_file, 'rb') as f:
     rf_model = pickle.load(f)
 
@@ -164,7 +191,7 @@ with open(encoder_file, 'rb') as f:
     label_encoders = pickle.load(f)
 
 # ===============================
-# 5️⃣ Prepare input for prediction
+# 5️⃣ Prepare Input for Prediction
 # ===============================
 input_dict = {
     'Household_Size': [household_size],
@@ -175,16 +202,17 @@ input_dict = {
     'Awareness_of_Waste_Management': [awareness],
     'Leftovers_Frequency': [leftovers],
     'Income_Range': [income],
-    'Cooking_Preference': [cooking_pref]
+    'Cooking_Preference': [cooking_pref],
+    'Cultural_Cuisine_Preference': [cuisine_pref],
+    'Perishability_Awareness': [perishability],
+    'Seasonal_Variation': [seasonal_var]
 }
 
 input_df = pd.DataFrame(input_dict)
 
-# Encode input
 for col, le in label_encoders.items():
     input_df[col] = le.transform(input_df[col])
 
-# Scale input
 numeric_cols = ['Household_Size', 'Daily_Meal_Count']
 input_df[numeric_cols] = scaler.transform(input_df[numeric_cols])
 
@@ -193,14 +221,14 @@ input_df[numeric_cols] = scaler.transform(input_df[numeric_cols])
 # ===============================
 if st.button("Predict"):
     try:
-        predicted_waste = rf_model.predict(input_df)[0]
+        prediction = rf_model.predict(input_df)[0]
         st.subheader("Predicted Weekly Food Waste")
-        st.write(f"Your predicted food waste is: **{predicted_waste:.2f} kg/week**")
+        st.write(f"Your predicted food waste is: **{prediction:.2f} kg/week**")
     except Exception as e:
-        st.error(f"An error occurred during prediction: {e}")
+        st.error(f"Prediction error: {e}")
 
 # ===============================
-# 7️⃣ Outro Section
+# 7️⃣ Outro
 # ===============================
 st.markdown("""
 <div style='text-align: center; padding: 20px; background-color: #f0f2f6; border-radius: 15px; margin-top: 40px;'>
@@ -211,8 +239,19 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+# ===============================
+# 8️⃣ Save Model Files
+# ===============================
+with open(model_file, 'wb') as f:
+    pickle.dump(rf_model, f)
 
+with open(scaler_file, 'wb') as f:
+    pickle.dump(scaler, f)
 
+with open(encoder_file, 'wb') as f:
+    pickle.dump(label_encoders, f)
+
+print("Model, scaler, and label encoders saved successfully!")
 
 # ===============================
 # Step 9: Interpretation of Results & Saving Files
