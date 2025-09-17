@@ -1,401 +1,401 @@
 Household_Size,Daily_Meal_Count,Meal_Type,Shopping_Habit,Storage_Availability,Awareness_of_Waste_Management,Leftovers_Frequency,Income_Range,Cooking_Preference,Food_Waste_kg_per_Week
-2,1,Non-Vegetarian,Bulk Buying,Medium,High,Sometimes,Medium,Fresh Daily,1.2920143002495497
-5,2,Non-Vegetarian,Bulk Buying,Medium,Low,Often,Low,Batch Cooking,3.439100921079263
-4,2,Vegetarian,Bulk Buying,Medium,Medium,Often,Medium,Batch Cooking,2.6109075432674262
-5,2,Vegetarian,Daily,Small,Medium,Often,High,Batch Cooking,2.913693874766763
-3,3,Mixed,Weekly,Medium,Low,Sometimes,Low,Fresh Daily,2.4772222628713885
-5,3,Mixed,Bulk Buying,Medium,Medium,Often,Medium,Batch Cooking,3.296502925364929
-2,3,Vegetarian,Weekly,Small,Low,Sometimes,Low,Batch Cooking,1.6517715553108765
-4,1,Non-Vegetarian,Bulk Buying,Medium,Low,Sometimes,Low,Fresh Daily,2.7964999674793334
-1,3,Non-Vegetarian,Weekly,Medium,High,Often,Low,Batch Cooking,1.503533773681689
-1,1,Mixed,Daily,Large,High,Sometimes,Medium,Batch Cooking,0.3307447212207685
-1,2,Non-Vegetarian,Weekly,Medium,Medium,Sometimes,Low,Batch Cooking,1.3959975720641438
-5,1,Mixed,Weekly,Large,Low,Rarely,High,Fresh Daily,2.006938139974663
-2,3,Non-Vegetarian,Weekly,Medium,Medium,Rarely,High,Fresh Daily,1.2923654683058796
-2,3,Vegetarian,Daily,Small,Medium,Sometimes,Low,Batch Cooking,1.7767258009756564
-2,2,Non-Vegetarian,Weekly,Small,Low,Rarely,High,Batch Cooking,1.1150662868925223
-4,2,Non-Vegetarian,Weekly,Medium,High,Sometimes,Low,Batch Cooking,1.0370705604820034
-3,3,Vegetarian,Weekly,Medium,Low,Rarely,Medium,Batch Cooking,1.738915103806988
-5,1,Non-Vegetarian,Weekly,Large,High,Sometimes,High,Fresh Daily,1.3382268223721168
-1,2,Vegetarian,Bulk Buying,Medium,Medium,Rarely,Low,Fresh Daily,1.6137468763893377
-6,1,Non-Vegetarian,Daily,Medium,Medium,Rarely,Low,Fresh Daily,1.4953093093967254
-4,2,Vegetarian,Weekly,Large,High,Rarely,Low,Fresh Daily,0.7639455424761032
-6,2,Mixed,Daily,Medium,Medium,Often,Low,Fresh Daily,3.21118917801846
-6,3,Non-Vegetarian,Bulk Buying,Small,Medium,Sometimes,High,Fresh Daily,3.590161317876671
-1,1,Mixed,Weekly,Large,Low,Sometimes,Low,Batch Cooking,1.5263235897847403
-1,3,Mixed,Bulk Buying,Small,Medium,Sometimes,High,Batch Cooking,2.3815588603602325
-4,3,Vegetarian,Bulk Buying,Small,High,Sometimes,Low,Batch Cooking,2.2321793153430494
-2,1,Non-Vegetarian,Weekly,Medium,Low,Sometimes,Low,Batch Cooking,1.7588397482280889
-3,3,Non-Vegetarian,Bulk Buying,Large,High,Often,Medium,Fresh Daily,2.642770802159397
-3,2,Mixed,Bulk Buying,Small,Medium,Often,Medium,Fresh Daily,3.761409337864711
-2,1,Mixed,Daily,Large,Low,Often,Low,Batch Cooking,2.215620219261159
-5,2,Vegetarian,Daily,Small,High,Sometimes,High,Fresh Daily,2.046983722123526
-1,2,Mixed,Bulk Buying,Small,Low,Often,High,Batch Cooking,3.68021770527253
-6,1,Vegetarian,Daily,Large,Medium,Sometimes,High,Batch Cooking,2.0893808618133924
-1,3,Non-Vegetarian,Daily,Small,High,Rarely,High,Fresh Daily,0.5571301484373209
-2,2,Non-Vegetarian,Bulk Buying,Medium,High,Rarely,Medium,Batch Cooking,1.146456816923029
-3,3,Non-Vegetarian,Daily,Large,Medium,Rarely,Low,Fresh Daily,0.8577872030454498
-6,1,Mixed,Weekly,Medium,Low,Rarely,High,Batch Cooking,1.6420888465042789
-2,3,Mixed,Daily,Large,Medium,Rarely,Low,Batch Cooking,0.8503834294380491
-4,2,Mixed,Weekly,Large,Low,Sometimes,Medium,Fresh Daily,1.715653411074415
-6,2,Non-Vegetarian,Weekly,Small,Low,Often,Low,Fresh Daily,3.7032609064401565
-4,3,Non-Vegetarian,Weekly,Large,Low,Sometimes,Low,Fresh Daily,2.0469962235399812
-5,1,Vegetarian,Weekly,Medium,High,Often,Low,Fresh Daily,2.010202712739384
-2,3,Non-Vegetarian,Bulk Buying,Large,Low,Often,Low,Batch Cooking,3.526753574264663
-6,1,Mixed,Daily,Medium,High,Sometimes,Medium,Fresh Daily,1.8705169425457364
-5,3,Vegetarian,Weekly,Small,Medium,Often,Low,Batch Cooking,2.380954332848074
-5,3,Non-Vegetarian,Bulk Buying,Large,High,Often,High,Fresh Daily,2.9029829506769964
-1,3,Mixed,Weekly,Medium,High,Often,Low,Fresh Daily,1.8755385524718267
-6,3,Mixed,Bulk Buying,Large,High,Rarely,Medium,Batch Cooking,2.252627585110659
-2,3,Non-Vegetarian,Daily,Medium,Medium,Sometimes,High,Batch Cooking,1.5154234542004552
-5,2,Mixed,Bulk Buying,Medium,Low,Sometimes,Low,Batch Cooking,3.097534696746093
-2,3,Vegetarian,Bulk Buying,Large,Low,Rarely,Medium,Batch Cooking,1.8564112237743153
-3,3,Mixed,Bulk Buying,Large,Low,Often,Low,Batch Cooking,3.711462040439037
-3,1,Vegetarian,Weekly,Small,Low,Sometimes,Low,Batch Cooking,1.6386601467129234
-1,2,Vegetarian,Bulk Buying,Small,High,Often,High,Batch Cooking,1.9004445621688728
-5,3,Non-Vegetarian,Daily,Medium,Low,Sometimes,Low,Fresh Daily,2.793943847525251
-3,1,Non-Vegetarian,Daily,Large,Low,Often,Low,Batch Cooking,2.7020135165488397
-6,3,Mixed,Daily,Medium,Low,Often,Low,Fresh Daily,3.2117648599418738
-2,3,Non-Vegetarian,Weekly,Small,High,Sometimes,High,Fresh Daily,1.1324655536222434
-2,3,Mixed,Bulk Buying,Medium,Medium,Sometimes,High,Fresh Daily,2.8296481674667997
-2,2,Non-Vegetarian,Weekly,Large,Medium,Often,High,Fresh Daily,1.4827633200897903
-4,1,Non-Vegetarian,Weekly,Small,High,Rarely,High,Fresh Daily,0.5673809898313055
-3,1,Mixed,Bulk Buying,Small,High,Rarely,Medium,Batch Cooking,1.5474630608780218
-3,1,Non-Vegetarian,Weekly,Small,High,Sometimes,Low,Fresh Daily,0.8603051861345932
-1,2,Mixed,Daily,Medium,Medium,Sometimes,Medium,Batch Cooking,1.0429338729435997
-4,2,Mixed,Daily,Medium,Low,Often,Medium,Batch Cooking,3.1182023508820262
-6,2,Non-Vegetarian,Bulk Buying,Medium,Medium,Often,High,Batch Cooking,3.9688691362840727
-6,1,Non-Vegetarian,Bulk Buying,Small,Low,Sometimes,High,Batch Cooking,2.9276644973705546
-2,3,Mixed,Daily,Large,Low,Sometimes,Medium,Batch Cooking,2.018540674623912
-5,2,Mixed,Weekly,Small,Medium,Often,Low,Batch Cooking,3.0845915350975144
-4,1,Mixed,Bulk Buying,Large,High,Often,High,Batch Cooking,1.8944407764040387
-5,3,Mixed,Weekly,Medium,Low,Sometimes,High,Fresh Daily,2.635164996980269
-5,3,Vegetarian,Weekly,Medium,Medium,Rarely,Medium,Batch Cooking,1.8446324471742797
-4,2,Vegetarian,Daily,Small,Medium,Often,Medium,Batch Cooking,2.005548058273761
-6,2,Vegetarian,Bulk Buying,Medium,Low,Sometimes,High,Batch Cooking,2.9680316046168955
-2,2,Mixed,Daily,Small,Low,Rarely,Low,Batch Cooking,1.9771858860639133
-5,2,Non-Vegetarian,Bulk Buying,Medium,High,Rarely,High,Fresh Daily,1.5050668064536592
-5,1,Vegetarian,Bulk Buying,Medium,Medium,Often,High,Fresh Daily,3.787425256155436
-4,1,Mixed,Weekly,Small,Medium,Sometimes,Low,Batch Cooking,1.6701362306946832
-2,3,Non-Vegetarian,Bulk Buying,Large,Medium,Rarely,Medium,Batch Cooking,1.2571887835268445
-4,3,Vegetarian,Bulk Buying,Small,Low,Often,High,Batch Cooking,4.099809023731718
-6,3,Mixed,Bulk Buying,Medium,High,Rarely,High,Batch Cooking,2.2406946769987606
-4,2,Mixed,Daily,Medium,Medium,Often,High,Fresh Daily,2.5739955901785736
-1,2,Mixed,Daily,Small,High,Rarely,Medium,Batch Cooking,0.25856785903982293
-4,3,Vegetarian,Weekly,Medium,High,Rarely,Medium,Batch Cooking,1.1159782823222142
-2,1,Vegetarian,Daily,Small,High,Sometimes,Medium,Fresh Daily,1.3794137831849995
-4,2,Mixed,Bulk Buying,Small,High,Rarely,Medium,Fresh Daily,1.5340594650574575
-5,3,Mixed,Weekly,Small,High,Often,Medium,Batch Cooking,2.1742464942364927
-6,1,Mixed,Bulk Buying,Small,Low,Sometimes,Low,Fresh Daily,3.887481091507603
-3,2,Vegetarian,Weekly,Small,Low,Often,High,Batch Cooking,2.810785847032408
-2,3,Mixed,Daily,Medium,Medium,Rarely,High,Fresh Daily,1.1892483014702706
-3,3,Mixed,Daily,Medium,Medium,Often,High,Fresh Daily,2.344174780427348
-2,3,Mixed,Weekly,Medium,High,Often,Medium,Batch Cooking,1.4276431921922468
-4,1,Non-Vegetarian,Weekly,Large,High,Sometimes,High,Batch Cooking,0.655551770392754
-5,1,Mixed,Bulk Buying,Large,Medium,Rarely,Low,Batch Cooking,1.7958842564030917
-2,1,Non-Vegetarian,Bulk Buying,Medium,Medium,Rarely,Medium,Batch Cooking,1.564460025717327
-4,3,Non-Vegetarian,Daily,Medium,Medium,Sometimes,Medium,Fresh Daily,2.4278336220295085
-5,1,Vegetarian,Weekly,Small,Low,Sometimes,Medium,Fresh Daily,2.3851714880267867
-1,3,Non-Vegetarian,Weekly,Small,Medium,Often,Medium,Fresh Daily,1.989199762019414
-4,1,Vegetarian,Bulk Buying,Small,Low,Sometimes,Low,Fresh Daily,2.982074244878953
-2,1,Non-Vegetarian,Daily,Large,Medium,Often,Medium,Fresh Daily,2.040251308951325
-6,1,Non-Vegetarian,Weekly,Small,Medium,Rarely,Low,Batch Cooking,2.0652418957142533
-4,2,Mixed,Daily,Small,Medium,Rarely,Low,Batch Cooking,1.3524858541843536
-5,3,Vegetarian,Weekly,Small,Medium,Often,High,Batch Cooking,3.1786788390075857
-4,3,Vegetarian,Bulk Buying,Small,High,Sometimes,Medium,Batch Cooking,2.2115175102097693
-3,2,Non-Vegetarian,Bulk Buying,Medium,Medium,Rarely,High,Batch Cooking,1.8809224845418937
-2,1,Non-Vegetarian,Bulk Buying,Medium,Medium,Rarely,High,Fresh Daily,1.3309028925481798
-5,1,Vegetarian,Daily,Large,High,Rarely,Medium,Fresh Daily,0.5172464286476802
-6,2,Non-Vegetarian,Weekly,Small,High,Sometimes,Low,Fresh Daily,1.513673065095305
-3,1,Mixed,Weekly,Small,Low,Sometimes,Low,Batch Cooking,2.223706956616612
-3,2,Vegetarian,Weekly,Small,Low,Rarely,High,Batch Cooking,2.1560836819533518
-6,2,Vegetarian,Weekly,Small,High,Rarely,Medium,Batch Cooking,1.3586472542746049
-3,2,Mixed,Daily,Small,Low,Sometimes,High,Batch Cooking,1.926843042229225
-6,3,Non-Vegetarian,Daily,Medium,High,Sometimes,Medium,Batch Cooking,1.820731354302668
-6,3,Non-Vegetarian,Bulk Buying,Medium,Low,Rarely,High,Batch Cooking,2.9118449620138747
-3,2,Vegetarian,Daily,Medium,Medium,Often,Medium,Batch Cooking,1.9564171869283338
-1,3,Vegetarian,Weekly,Medium,High,Sometimes,Low,Fresh Daily,0.9659774215617664
-5,3,Non-Vegetarian,Weekly,Large,Low,Often,Low,Fresh Daily,2.7676664189846125
-2,1,Vegetarian,Weekly,Small,High,Rarely,Medium,Batch Cooking,0.5999074299418403
-1,3,Mixed,Daily,Medium,Low,Often,Medium,Fresh Daily,2.2226401374789377
-6,1,Vegetarian,Daily,Small,Low,Rarely,Medium,Batch Cooking,1.9719175801865165
-2,2,Non-Vegetarian,Bulk Buying,Small,Medium,Often,Medium,Fresh Daily,3.43741101663722
-5,1,Mixed,Weekly,Small,Low,Rarely,High,Fresh Daily,1.720539265007321
-5,2,Mixed,Daily,Medium,High,Rarely,Low,Fresh Daily,0.7085264963108273
-6,1,Non-Vegetarian,Weekly,Small,Medium,Often,High,Fresh Daily,2.880886383665976
-5,2,Non-Vegetarian,Daily,Small,Low,Rarely,High,Batch Cooking,1.9268519571596299
-6,1,Non-Vegetarian,Weekly,Small,Medium,Often,Medium,Batch Cooking,2.684164495993917
-2,3,Vegetarian,Weekly,Large,Low,Often,Low,Fresh Daily,2.9846961891744357
-4,1,Mixed,Bulk Buying,Medium,High,Rarely,Low,Fresh Daily,1.7835855442021211
-2,1,Mixed,Bulk Buying,Medium,Medium,Often,Low,Fresh Daily,2.698883837347338
-5,1,Vegetarian,Bulk Buying,Small,Low,Sometimes,High,Batch Cooking,2.7530124413548096
-1,2,Non-Vegetarian,Daily,Large,Low,Rarely,Low,Batch Cooking,0.6044057058298676
-4,2,Mixed,Daily,Small,Low,Often,High,Fresh Daily,3.680284577263114
-3,1,Vegetarian,Weekly,Medium,Low,Rarely,High,Fresh Daily,2.004469272481441
-1,1,Mixed,Weekly,Large,Low,Sometimes,Low,Fresh Daily,1.7907974689462813
-3,2,Mixed,Weekly,Large,Medium,Sometimes,Low,Batch Cooking,1.4992909656956503
-5,2,Non-Vegetarian,Daily,Medium,High,Often,Low,Batch Cooking,2.495146237721953
-4,2,Vegetarian,Daily,Medium,Medium,Often,Medium,Batch Cooking,2.313952549461431
-2,3,Non-Vegetarian,Weekly,Medium,High,Sometimes,High,Batch Cooking,1.137891426993177
-2,2,Mixed,Weekly,Large,High,Often,Medium,Fresh Daily,1.4100878742963587
-1,2,Mixed,Bulk Buying,Small,Medium,Rarely,High,Batch Cooking,1.758543965044702
-4,1,Vegetarian,Weekly,Small,Medium,Sometimes,Medium,Batch Cooking,1.4383602704765628
-6,2,Non-Vegetarian,Weekly,Small,High,Rarely,Medium,Batch Cooking,1.1596516659582972
-2,3,Vegetarian,Bulk Buying,Large,Medium,Often,High,Batch Cooking,2.901059081250902
-2,2,Mixed,Weekly,Small,Medium,Sometimes,High,Batch Cooking,1.0282645232709549
-1,3,Vegetarian,Bulk Buying,Large,Low,Rarely,Medium,Batch Cooking,2.1874205414295376
-1,1,Vegetarian,Daily,Small,Medium,Often,Medium,Batch Cooking,1.516239394615707
-1,3,Mixed,Weekly,Medium,Medium,Sometimes,High,Fresh Daily,0.9930022786190945
-1,2,Vegetarian,Weekly,Small,Low,Rarely,Low,Batch Cooking,0.8614189311098556
-2,3,Vegetarian,Bulk Buying,Medium,Medium,Often,Medium,Batch Cooking,2.804910703859126
-3,1,Vegetarian,Weekly,Large,Low,Sometimes,Medium,Fresh Daily,1.7788521236654504
-1,3,Mixed,Daily,Medium,High,Often,Medium,Batch Cooking,1.358618745552023
-6,1,Non-Vegetarian,Weekly,Large,Low,Rarely,High,Batch Cooking,2.02064520790622
-2,2,Mixed,Daily,Small,High,Sometimes,Medium,Batch Cooking,0.8926503523889889
-5,3,Mixed,Daily,Large,Medium,Often,High,Fresh Daily,3.110984840638375
-4,1,Vegetarian,Daily,Medium,Low,Sometimes,High,Batch Cooking,1.87268048907137
-3,3,Non-Vegetarian,Weekly,Medium,Low,Rarely,Low,Batch Cooking,1.3695400519379333
-6,1,Non-Vegetarian,Bulk Buying,Medium,Low,Sometimes,Low,Batch Cooking,3.1198671354029153
-2,2,Vegetarian,Daily,Large,Medium,Often,Medium,Fresh Daily,1.9912824372572446
-3,2,Non-Vegetarian,Weekly,Large,Medium,Sometimes,Medium,Fresh Daily,1.831073681056195
-5,3,Mixed,Bulk Buying,Large,Medium,Sometimes,Low,Batch Cooking,2.499344153610324
-1,3,Vegetarian,Daily,Medium,Low,Rarely,High,Fresh Daily,1.6639748941774204
-4,3,Vegetarian,Bulk Buying,Small,Low,Sometimes,Medium,Batch Cooking,3.177499130434153
-5,1,Mixed,Weekly,Small,High,Sometimes,Medium,Fresh Daily,1.5697134632818683
-5,1,Non-Vegetarian,Weekly,Large,High,Rarely,Medium,Fresh Daily,1.1736127253724986
-5,3,Mixed,Weekly,Large,Low,Often,Medium,Fresh Daily,3.022152895275734
-2,3,Mixed,Weekly,Large,Medium,Sometimes,Low,Batch Cooking,0.7892481228116083
-3,1,Vegetarian,Daily,Medium,High,Rarely,Low,Fresh Daily,0.35249222315762074
-5,1,Non-Vegetarian,Bulk Buying,Large,High,Sometimes,Medium,Batch Cooking,1.420795270926844
-5,3,Non-Vegetarian,Daily,Small,Medium,Often,Medium,Fresh Daily,2.679179109452364
-4,2,Vegetarian,Bulk Buying,Large,Medium,Rarely,Medium,Batch Cooking,1.3341798203687438
-6,3,Non-Vegetarian,Weekly,Large,Low,Rarely,Medium,Batch Cooking,1.8345511347754464
-1,1,Mixed,Weekly,Small,High,Rarely,Medium,Batch Cooking,0.6476294138664627
-2,3,Mixed,Weekly,Small,Low,Sometimes,Low,Fresh Daily,2.1638302340562348
-3,3,Vegetarian,Weekly,Large,Medium,Sometimes,Low,Batch Cooking,1.7428229040761472
-1,1,Mixed,Daily,Small,High,Sometimes,Low,Batch Cooking,0.850092589833099
-5,1,Mixed,Daily,Small,High,Rarely,Low,Fresh Daily,1.2478456494831947
-1,2,Non-Vegetarian,Daily,Large,Low,Sometimes,High,Fresh Daily,1.0744734313878166
-1,1,Non-Vegetarian,Daily,Small,High,Rarely,High,Batch Cooking,0.1
-1,1,Vegetarian,Weekly,Large,High,Sometimes,Low,Fresh Daily,0.6803640818691585
-3,2,Non-Vegetarian,Daily,Small,Low,Often,High,Fresh Daily,2.9347638382135632
-2,1,Mixed,Daily,Medium,Low,Rarely,Medium,Batch Cooking,0.9806798617518815
-3,2,Vegetarian,Bulk Buying,Medium,Low,Often,High,Fresh Daily,3.880151545240838
-1,1,Non-Vegetarian,Weekly,Large,High,Rarely,High,Batch Cooking,0.1
-6,1,Vegetarian,Daily,Medium,Medium,Often,High,Fresh Daily,2.373296638754364
-1,1,Non-Vegetarian,Bulk Buying,Medium,High,Rarely,High,Fresh Daily,0.77455830261523
-6,1,Mixed,Daily,Medium,Medium,Sometimes,Medium,Batch Cooking,1.5823715578137576
-6,1,Vegetarian,Bulk Buying,Small,High,Often,Medium,Fresh Daily,3.244185628913759
-3,1,Mixed,Weekly,Medium,Medium,Sometimes,High,Fresh Daily,1.7020437454344315
-6,1,Non-Vegetarian,Daily,Small,Medium,Often,High,Batch Cooking,2.684798013238127
-2,2,Vegetarian,Daily,Small,High,Rarely,Medium,Fresh Daily,0.22097131838286865
-1,1,Mixed,Weekly,Medium,High,Rarely,Low,Batch Cooking,0.1
-1,2,Non-Vegetarian,Weekly,Medium,Low,Sometimes,Low,Fresh Daily,1.3857202843497902
-6,2,Mixed,Daily,Large,Low,Rarely,High,Batch Cooking,2.0191440521901995
-4,2,Mixed,Weekly,Large,Medium,Often,Low,Batch Cooking,2.195275210341335
-4,2,Vegetarian,Bulk Buying,Medium,Medium,Sometimes,Low,Fresh Daily,2.559281097248034
-1,2,Mixed,Weekly,Small,Medium,Often,Medium,Batch Cooking,1.8296486450037468
-4,2,Mixed,Weekly,Large,High,Rarely,High,Fresh Daily,1.0127505183753374
-1,1,Vegetarian,Weekly,Large,Low,Rarely,High,Fresh Daily,0.6481148803111867
-3,2,Non-Vegetarian,Daily,Small,Medium,Rarely,High,Fresh Daily,1.7625349485238417
-1,2,Vegetarian,Weekly,Small,Low,Rarely,High,Batch Cooking,1.2443484879361029
-1,1,Non-Vegetarian,Weekly,Large,Low,Often,Medium,Batch Cooking,1.4361882932509424
-5,1,Mixed,Daily,Medium,Medium,Sometimes,High,Batch Cooking,1.4272966601876016
-3,3,Vegetarian,Daily,Small,Low,Rarely,High,Fresh Daily,2.461461555040615
-4,3,Mixed,Weekly,Small,Low,Sometimes,Medium,Fresh Daily,2.26911432976315
-6,1,Non-Vegetarian,Bulk Buying,Large,Medium,Often,Low,Batch Cooking,3.6074347492352272
-5,2,Vegetarian,Bulk Buying,Large,Medium,Rarely,Medium,Batch Cooking,1.809446916308643
-6,2,Vegetarian,Weekly,Small,Medium,Rarely,High,Fresh Daily,2.2189518659712295
-5,3,Non-Vegetarian,Bulk Buying,Large,High,Rarely,Medium,Fresh Daily,1.5860749606436317
-5,2,Mixed,Bulk Buying,Small,Low,Often,Medium,Fresh Daily,4.281085724839579
-6,3,Vegetarian,Bulk Buying,Small,High,Sometimes,Low,Batch Cooking,2.970612141060557
-1,2,Non-Vegetarian,Weekly,Medium,High,Often,Low,Batch Cooking,1.319959628675281
-6,1,Mixed,Daily,Small,Low,Sometimes,Low,Batch Cooking,2.927188420513909
-1,3,Vegetarian,Daily,Large,Low,Sometimes,Medium,Batch Cooking,1.1037853935767616
-6,2,Non-Vegetarian,Daily,Large,Medium,Rarely,Low,Batch Cooking,1.8763747267252047
-4,1,Mixed,Bulk Buying,Small,Low,Sometimes,High,Fresh Daily,2.9325132228085358
-3,1,Vegetarian,Daily,Medium,Medium,Often,Low,Batch Cooking,2.1564397509433815
-1,2,Vegetarian,Bulk Buying,Medium,Medium,Often,Medium,Fresh Daily,2.782963269265722
-6,1,Vegetarian,Daily,Medium,Low,Sometimes,Low,Fresh Daily,2.9049899532268952
-1,1,Vegetarian,Weekly,Small,Medium,Often,Medium,Fresh Daily,1.7292872450332335
-5,3,Vegetarian,Bulk Buying,Medium,Medium,Sometimes,Low,Batch Cooking,2.9160086093244035
-1,2,Mixed,Weekly,Medium,Medium,Often,High,Batch Cooking,1.6047429754539115
-5,1,Mixed,Bulk Buying,Medium,Medium,Sometimes,Low,Fresh Daily,2.973816949328743
-4,3,Vegetarian,Daily,Medium,Low,Often,High,Batch Cooking,3.1816664347085903
-5,2,Vegetarian,Daily,Small,High,Rarely,Low,Batch Cooking,1.4670072280496262
-3,3,Mixed,Daily,Large,High,Rarely,Medium,Batch Cooking,0.7119502622231966
-4,3,Vegetarian,Weekly,Large,Medium,Sometimes,Low,Batch Cooking,1.6936300677089708
-4,1,Non-Vegetarian,Bulk Buying,Large,Low,Often,High,Batch Cooking,2.8512714337947043
-3,3,Mixed,Weekly,Small,Low,Sometimes,Low,Fresh Daily,2.5740160127236744
-2,3,Vegetarian,Daily,Small,High,Rarely,Low,Batch Cooking,0.290615257643701
-6,2,Vegetarian,Weekly,Medium,High,Sometimes,Low,Fresh Daily,1.2280484458237193
-5,2,Vegetarian,Daily,Medium,Medium,Rarely,High,Fresh Daily,1.8055094931926612
-2,2,Non-Vegetarian,Weekly,Small,Medium,Often,Low,Fresh Daily,2.711743345317285
-2,3,Mixed,Daily,Large,Low,Sometimes,Medium,Batch Cooking,1.9217312058407754
-3,3,Mixed,Daily,Large,High,Rarely,High,Fresh Daily,0.5884055462306984
-6,3,Mixed,Bulk Buying,Medium,High,Sometimes,Medium,Fresh Daily,2.6042591728081224
-4,3,Mixed,Weekly,Small,High,Rarely,Medium,Batch Cooking,1.2304282414883378
-3,1,Mixed,Bulk Buying,Small,High,Rarely,High,Fresh Daily,1.3162028102035275
-1,2,Non-Vegetarian,Weekly,Large,Low,Sometimes,High,Batch Cooking,1.1307533474618996
-4,1,Mixed,Daily,Medium,Medium,Rarely,Low,Batch Cooking,1.3967050036224207
-5,3,Mixed,Daily,Medium,Medium,Rarely,Low,Batch Cooking,1.2564225107909546
-6,3,Non-Vegetarian,Weekly,Small,Low,Rarely,High,Fresh Daily,2.576505747209266
-6,1,Vegetarian,Weekly,Small,Low,Rarely,Low,Batch Cooking,2.1011654318461233
-1,2,Mixed,Bulk Buying,Large,High,Sometimes,Low,Batch Cooking,1.1426278848294862
-4,3,Non-Vegetarian,Daily,Medium,High,Sometimes,Low,Batch Cooking,0.994022643755302
-6,1,Mixed,Daily,Small,Low,Sometimes,Medium,Batch Cooking,2.9959396249010295
-5,1,Mixed,Bulk Buying,Large,High,Rarely,High,Batch Cooking,0.8676786145159073
-2,1,Vegetarian,Bulk Buying,Large,Medium,Often,High,Fresh Daily,2.0961738200221856
-2,1,Mixed,Daily,Medium,High,Rarely,High,Batch Cooking,0.1
-3,1,Non-Vegetarian,Daily,Medium,Medium,Often,Low,Batch Cooking,1.6731799915688472
-4,2,Vegetarian,Daily,Medium,Medium,Rarely,High,Batch Cooking,1.414676659809102
-5,1,Non-Vegetarian,Weekly,Small,Low,Often,Medium,Fresh Daily,3.221835641938567
-1,3,Vegetarian,Weekly,Large,High,Rarely,Medium,Batch Cooking,0.29209715630739297
-1,3,Mixed,Daily,Large,Low,Often,High,Batch Cooking,2.020342122348087
-4,2,Non-Vegetarian,Weekly,Medium,Low,Rarely,High,Batch Cooking,2.147050796366507
-5,2,Non-Vegetarian,Daily,Small,Low,Sometimes,Low,Fresh Daily,2.3300422858915195
-6,3,Non-Vegetarian,Daily,Medium,High,Sometimes,High,Batch Cooking,1.1869590929090794
-5,1,Non-Vegetarian,Daily,Small,Low,Sometimes,Low,Fresh Daily,2.65547886226138
-4,1,Mixed,Weekly,Medium,Medium,Often,Medium,Fresh Daily,2.134693908454972
-3,2,Vegetarian,Daily,Small,Medium,Rarely,Medium,Fresh Daily,1.6503348963766928
-4,3,Non-Vegetarian,Weekly,Small,Low,Often,High,Fresh Daily,3.724960174816884
-4,1,Vegetarian,Weekly,Medium,Medium,Sometimes,Low,Fresh Daily,1.6949622524511798
-1,1,Non-Vegetarian,Bulk Buying,Small,High,Often,High,Fresh Daily,1.8323608948138235
-4,2,Vegetarian,Bulk Buying,Large,Medium,Rarely,Low,Batch Cooking,1.5913013397353333
-1,2,Vegetarian,Daily,Medium,Medium,Sometimes,Medium,Batch Cooking,0.8389453543336252
-4,2,Non-Vegetarian,Weekly,Small,High,Often,Low,Batch Cooking,1.540637834089042
-2,1,Non-Vegetarian,Daily,Small,High,Often,Medium,Batch Cooking,1.7196438640682963
-6,3,Non-Vegetarian,Daily,Large,Medium,Rarely,High,Batch Cooking,1.865307093263782
-1,3,Non-Vegetarian,Weekly,Medium,Low,Sometimes,High,Batch Cooking,2.016334015863194
-6,3,Mixed,Daily,Medium,Low,Often,High,Batch Cooking,3.688376168260607
-6,1,Non-Vegetarian,Daily,Medium,Medium,Sometimes,Low,Fresh Daily,2.224863773643282
-3,2,Non-Vegetarian,Weekly,Large,High,Rarely,Low,Fresh Daily,0.3632248539014299
-2,3,Non-Vegetarian,Weekly,Small,Low,Often,Medium,Batch Cooking,3.1786907367573694
-1,3,Non-Vegetarian,Bulk Buying,Medium,Low,Often,Low,Batch Cooking,3.3562064741451234
-1,1,Non-Vegetarian,Daily,Medium,High,Sometimes,Medium,Batch Cooking,0.7538127151153261
-1,3,Non-Vegetarian,Weekly,Medium,Low,Often,Low,Fresh Daily,2.482833040757945
-2,2,Non-Vegetarian,Bulk Buying,Small,Low,Often,High,Fresh Daily,3.7375957069272356
-6,3,Vegetarian,Daily,Medium,High,Often,Medium,Fresh Daily,2.3134036292630746
-1,2,Vegetarian,Weekly,Large,Medium,Sometimes,Medium,Fresh Daily,0.8711434935739044
-1,2,Vegetarian,Daily,Large,Medium,Rarely,Medium,Fresh Daily,0.6651406276552562
-2,2,Vegetarian,Daily,Medium,High,Sometimes,Medium,Batch Cooking,1.0482319964695523
-5,2,Non-Vegetarian,Weekly,Large,Low,Often,Medium,Fresh Daily,2.528507775910309
-2,3,Non-Vegetarian,Weekly,Large,Medium,Sometimes,High,Fresh Daily,1.519739579078054
-2,3,Mixed,Bulk Buying,Small,High,Sometimes,High,Batch Cooking,1.5536222158063127
-3,1,Mixed,Weekly,Large,Low,Sometimes,High,Batch Cooking,1.8185801409984519
-3,3,Mixed,Daily,Medium,Low,Rarely,Medium,Fresh Daily,1.417088531207631
-3,2,Mixed,Daily,Large,Low,Sometimes,High,Batch Cooking,1.8316727839207094
-2,2,Vegetarian,Daily,Medium,High,Sometimes,Medium,Batch Cooking,0.3737936739177352
-6,2,Non-Vegetarian,Weekly,Large,Low,Rarely,Low,Fresh Daily,1.9682713071752311
-4,2,Non-Vegetarian,Daily,Small,Low,Sometimes,Low,Fresh Daily,2.463004263081005
-6,2,Non-Vegetarian,Bulk Buying,Large,High,Often,High,Batch Cooking,2.506483537320899
-6,1,Non-Vegetarian,Weekly,Small,Low,Rarely,Medium,Batch Cooking,2.0043610927775397
-5,3,Vegetarian,Bulk Buying,Medium,High,Often,High,Fresh Daily,3.3269075462812188
-5,1,Vegetarian,Daily,Medium,Medium,Sometimes,Low,Batch Cooking,1.9561001757297578
-3,3,Mixed,Weekly,Small,Low,Often,Medium,Fresh Daily,3.5996472785934515
-4,3,Non-Vegetarian,Bulk Buying,Medium,Medium,Often,High,Fresh Daily,3.3943521286187854
-1,1,Non-Vegetarian,Bulk Buying,Small,High,Sometimes,High,Fresh Daily,1.4225747364716521
-1,3,Non-Vegetarian,Weekly,Medium,Medium,Rarely,High,Batch Cooking,0.7858818768202316
-5,1,Non-Vegetarian,Daily,Medium,Low,Rarely,High,Batch Cooking,1.7413649972905798
-2,2,Non-Vegetarian,Daily,Medium,High,Sometimes,Medium,Fresh Daily,1.1935116437070599
-4,2,Vegetarian,Weekly,Large,Medium,Often,High,Batch Cooking,1.868111282247037
-2,1,Non-Vegetarian,Weekly,Large,Low,Often,Low,Batch Cooking,1.5917980825378348
-1,3,Mixed,Weekly,Large,Low,Rarely,Medium,Batch Cooking,1.4129621840225204
-2,2,Non-Vegetarian,Daily,Medium,Low,Sometimes,High,Fresh Daily,1.9341314686649271
-4,1,Mixed,Daily,Medium,High,Sometimes,Medium,Batch Cooking,0.9545132982142651
-3,3,Mixed,Daily,Large,Low,Sometimes,High,Fresh Daily,2.5196604206549176
-2,2,Vegetarian,Weekly,Large,Low,Often,Low,Batch Cooking,2.554775724123087
-3,2,Non-Vegetarian,Bulk Buying,Medium,Medium,Often,High,Batch Cooking,2.721003014687965
-3,1,Vegetarian,Bulk Buying,Medium,High,Rarely,Medium,Batch Cooking,1.2962789103746188
-2,1,Vegetarian,Weekly,Large,High,Sometimes,Low,Fresh Daily,0.7426460400800228
-5,1,Vegetarian,Weekly,Large,Low,Sometimes,High,Batch Cooking,1.857230982475636
-3,2,Vegetarian,Weekly,Medium,Medium,Sometimes,High,Batch Cooking,1.4715783220735723
-1,3,Mixed,Weekly,Medium,Medium,Often,Medium,Fresh Daily,2.0634697392229437
-2,2,Vegetarian,Weekly,Small,Medium,Rarely,Medium,Batch Cooking,0.7532785311600657
-1,1,Vegetarian,Daily,Large,High,Rarely,High,Batch Cooking,0.1
-6,1,Non-Vegetarian,Bulk Buying,Small,Low,Sometimes,Medium,Batch Cooking,3.628698545929832
-6,2,Non-Vegetarian,Daily,Small,High,Sometimes,Medium,Fresh Daily,2.355621287155294
-4,2,Non-Vegetarian,Bulk Buying,Small,Medium,Sometimes,Medium,Batch Cooking,2.8262532533978417
-1,3,Mixed,Bulk Buying,Small,Low,Rarely,Medium,Fresh Daily,2.389725771839421
-2,3,Mixed,Daily,Small,High,Rarely,Medium,Fresh Daily,0.9743527584329026
-4,1,Non-Vegetarian,Bulk Buying,Large,Low,Often,Medium,Fresh Daily,3.536561625892628
-6,1,Mixed,Daily,Large,Medium,Often,High,Batch Cooking,2.2302153117324113
-2,1,Non-Vegetarian,Bulk Buying,Large,High,Often,Low,Batch Cooking,1.932968171236383
-4,2,Mixed,Weekly,Small,High,Rarely,Low,Fresh Daily,1.399211766349457
-2,1,Mixed,Bulk Buying,Small,High,Sometimes,Medium,Fresh Daily,1.8735503067522106
-3,2,Mixed,Weekly,Large,Medium,Sometimes,High,Batch Cooking,0.8487242961509921
-1,1,Mixed,Weekly,Medium,Medium,Sometimes,High,Fresh Daily,1.4387433393752849
-1,1,Non-Vegetarian,Bulk Buying,Medium,High,Rarely,High,Fresh Daily,1.4283445155925816
-5,3,Vegetarian,Daily,Small,High,Often,Medium,Batch Cooking,2.8228223129904215
-3,1,Mixed,Weekly,Large,Low,Rarely,Medium,Fresh Daily,1.3438324926617917
-3,3,Non-Vegetarian,Weekly,Small,Medium,Sometimes,Medium,Batch Cooking,1.502470973332899
-3,3,Mixed,Bulk Buying,Small,High,Rarely,High,Batch Cooking,2.0462871137383076
-1,2,Vegetarian,Bulk Buying,Small,High,Sometimes,Low,Batch Cooking,1.5340393994327115
-3,1,Mixed,Daily,Large,High,Often,High,Fresh Daily,1.9441066038038628
-2,3,Non-Vegetarian,Weekly,Large,High,Rarely,Medium,Fresh Daily,0.37779808835314355
-1,3,Vegetarian,Daily,Medium,High,Often,High,Batch Cooking,0.9235116058270773
-6,3,Non-Vegetarian,Daily,Small,Medium,Rarely,High,Fresh Daily,1.9224154990596332
-5,3,Vegetarian,Weekly,Medium,Low,Rarely,High,Fresh Daily,2.4076818879865316
-2,2,Vegetarian,Bulk Buying,Large,High,Often,Medium,Fresh Daily,2.2173421140276144
-5,2,Mixed,Bulk Buying,Medium,Medium,Rarely,High,Batch Cooking,2.3396060551684275
-4,2,Non-Vegetarian,Bulk Buying,Large,Medium,Rarely,High,Batch Cooking,2.168813136657976
-3,3,Non-Vegetarian,Daily,Small,Medium,Rarely,High,Fresh Daily,1.9564903687373572
-5,2,Mixed,Daily,Small,Low,Often,High,Batch Cooking,2.9474386846594873
-3,2,Vegetarian,Weekly,Small,Medium,Sometimes,High,Fresh Daily,2.2039639405972586
-1,3,Vegetarian,Daily,Large,Medium,Sometimes,High,Batch Cooking,0.6592133465589969
-5,2,Vegetarian,Daily,Medium,Low,Sometimes,High,Fresh Daily,2.520965374120716
-5,3,Mixed,Weekly,Small,Medium,Often,High,Fresh Daily,3.351184573957773
-4,2,Mixed,Bulk Buying,Large,Medium,Sometimes,Low,Batch Cooking,1.8666019083258893
-4,1,Vegetarian,Weekly,Medium,High,Sometimes,Medium,Batch Cooking,0.8533461897615844
-1,2,Non-Vegetarian,Weekly,Medium,High,Often,Low,Fresh Daily,1.5390279000294247
-6,2,Mixed,Weekly,Medium,Medium,Rarely,Low,Batch Cooking,1.5653962475554208
-5,3,Mixed,Weekly,Large,Medium,Rarely,High,Batch Cooking,1.48284628719803
-3,1,Non-Vegetarian,Daily,Large,Medium,Rarely,High,Fresh Daily,0.8501747665471308
-3,2,Mixed,Weekly,Medium,High,Sometimes,Low,Batch Cooking,0.45555218398861297
-5,3,Vegetarian,Bulk Buying,Medium,High,Sometimes,Medium,Batch Cooking,1.7866391680502032
-3,1,Vegetarian,Bulk Buying,Medium,High,Sometimes,High,Fresh Daily,1.6620044717674844
-2,1,Non-Vegetarian,Weekly,Large,High,Often,Medium,Batch Cooking,1.5433795495292242
-4,3,Non-Vegetarian,Bulk Buying,Medium,High,Sometimes,Low,Fresh Daily,2.740470428722938
-2,1,Mixed,Bulk Buying,Medium,Medium,Rarely,High,Batch Cooking,1.9247581570068086
-2,2,Non-Vegetarian,Bulk Buying,Large,Medium,Rarely,High,Fresh Daily,1.8032987923422776
-2,2,Non-Vegetarian,Bulk Buying,Small,High,Rarely,High,Fresh Daily,1.728746799689464
-5,2,Vegetarian,Bulk Buying,Small,Medium,Sometimes,Low,Batch Cooking,2.968265088164495
-1,1,Vegetarian,Weekly,Medium,Medium,Rarely,Medium,Batch Cooking,0.5715688738837
-2,2,Mixed,Weekly,Large,Medium,Rarely,High,Batch Cooking,0.6900073289790343
-1,1,Vegetarian,Daily,Medium,Low,Often,Medium,Fresh Daily,2.6956056714769576
-6,2,Vegetarian,Bulk Buying,Small,Low,Rarely,High,Batch Cooking,2.917246181563357
-2,2,Mixed,Daily,Large,Medium,Sometimes,Low,Batch Cooking,0.6614459683929071
-2,1,Non-Vegetarian,Daily,Small,Low,Often,High,Fresh Daily,2.1897278264940137
-1,3,Vegetarian,Weekly,Small,High,Rarely,High,Fresh Daily,0.66462204903059
-1,2,Vegetarian,Weekly,Medium,Medium,Sometimes,Low,Fresh Daily,1.4473855067613624
-3,3,Vegetarian,Weekly,Small,Low,Sometimes,High,Fresh Daily,2.843880656177597
-5,3,Vegetarian,Bulk Buying,Small,Medium,Often,Low,Fresh Daily,4.043715410578395
-3,1,Vegetarian,Weekly,Medium,Low,Sometimes,Low,Fresh Daily,2.4265856959505885
-4,1,Non-Vegetarian,Weekly,Medium,High,Sometimes,High,Batch Cooking,0.5507045615545965
-2,3,Mixed,Daily,Medium,High,Rarely,High,Batch Cooking,0.6841895151032705
-5,3,Mixed,Weekly,Small,Low,Often,Low,Batch Cooking,3.3106533549263872
-6,3,Vegetarian,Daily,Large,High,Often,Medium,Batch Cooking,1.9188358895020476
-1,2,Non-Vegetarian,Bulk Buying,Large,Medium,Often,Medium,Batch Cooking,2.2062664626271946
-6,3,Vegetarian,Bulk Buying,Medium,High,Rarely,High,Fresh Daily,2.29070026340425
-1,1,Non-Vegetarian,Weekly,Small,High,Often,High,Batch Cooking,0.8786215402013299
-4,2,Vegetarian,Daily,Small,Low,Often,Medium,Fresh Daily,3.0176695406147087
-2,1,Non-Vegetarian,Bulk Buying,Large,Low,Often,Medium,Fresh Daily,3.1391808402585246
-3,2,Non-Vegetarian,Weekly,Large,Low,Rarely,High,Batch Cooking,1.0880051686738819
-1,3,Vegetarian,Weekly,Medium,High,Sometimes,Low,Batch Cooking,0.4280124858420019
-3,2,Mixed,Bulk Buying,Small,High,Rarely,Low,Batch Cooking,1.3544180421527532
-2,2,Vegetarian,Daily,Large,High,Sometimes,Low,Batch Cooking,0.7802390602137972
-3,2,Vegetarian,Bulk Buying,Small,Medium,Sometimes,Low,Batch Cooking,2.741017769049626
-6,2,Mixed,Daily,Medium,Medium,Often,Medium,Fresh Daily,2.5590758994555443
-6,3,Non-Vegetarian,Bulk Buying,Large,High,Rarely,High,Fresh Daily,2.4851284096196666
-5,3,Non-Vegetarian,Daily,Small,Low,Rarely,Medium,Batch Cooking,1.956678158011567
-6,3,Non-Vegetarian,Weekly,Small,Low,Often,Low,Fresh Daily,3.402953853605606
-3,3,Vegetarian,Daily,Medium,Medium,Sometimes,Medium,Batch Cooking,1.7904398827924466
-4,2,Vegetarian,Weekly,Medium,Medium,Sometimes,Low,Batch Cooking,1.8124723067793247
-6,2,Non-Vegetarian,Daily,Small,Medium,Rarely,Medium,Batch Cooking,1.6887942623624341
-2,1,Mixed,Bulk Buying,Large,Low,Sometimes,Medium,Batch Cooking,2.6221491544584636
-6,3,Vegetarian,Daily,Small,High,Often,High,Batch Cooking,2.1279680185281373
-1,3,Mixed,Daily,Small,High,Rarely,High,Batch Cooking,0.3261085145938226
-3,1,Mixed,Bulk Buying,Medium,High,Rarely,High,Fresh Daily,1.0916665606236562
-5,3,Mixed,Weekly,Small,Low,Rarely,High,Batch Cooking,2.6201729447922424
-3,2,Mixed,Bulk Buying,Small,Low,Often,High,Batch Cooking,3.9485371168398133
-3,1,Mixed,Daily,Large,Medium,Sometimes,Low,Fresh Daily,1.5614037196654584
+5,2,Mixed,Bulk Buying,Medium,High,Often,Medium,Batch Cooking,2.7394462707963134
+2,3,Vegetarian,Weekly,Small,Low,Sometimes,High,Fresh Daily,1.994661947168805
+3,1,Non-Vegetarian,Daily,Medium,Medium,Sometimes,High,Fresh Daily,0.951344117226542
+4,2,Non-Vegetarian,Bulk Buying,Small,Medium,Sometimes,Low,Batch Cooking,2.728271877444098
+5,1,Non-Vegetarian,Weekly,Large,Low,Rarely,Low,Fresh Daily,2.165811995832305
+3,1,Vegetarian,Daily,Medium,Low,Sometimes,Low,Batch Cooking,1.8264044302230782
+5,2,Mixed,Bulk Buying,Small,Low,Sometimes,Medium,Fresh Daily,3.89808630498292
+3,3,Non-Vegetarian,Daily,Large,Medium,Often,Medium,Fresh Daily,1.9101472427322759
+6,3,Mixed,Weekly,Small,High,Sometimes,Low,Fresh Daily,1.5627417136200825
+4,3,Vegetarian,Weekly,Medium,High,Sometimes,Low,Fresh Daily,1.5051325959447022
+6,3,Mixed,Weekly,Medium,Medium,Often,High,Batch Cooking,3.2284606759149286
+4,2,Vegetarian,Daily,Large,High,Often,Low,Batch Cooking,1.6036604732732136
+4,2,Non-Vegetarian,Weekly,Large,Low,Often,Medium,Batch Cooking,2.105248072915545
+3,2,Mixed,Daily,Small,Low,Often,High,Batch Cooking,3.1215191887991263
+6,3,Vegetarian,Bulk Buying,Large,Low,Rarely,Low,Fresh Daily,3.0628255667056266
+5,3,Mixed,Daily,Small,Medium,Rarely,Low,Fresh Daily,1.4595390636540206
+3,1,Vegetarian,Bulk Buying,Large,High,Often,Low,Batch Cooking,2.0775126427612265
+6,3,Non-Vegetarian,Daily,Large,High,Sometimes,Medium,Batch Cooking,1.1803229914560378
+1,3,Vegetarian,Weekly,Medium,Low,Rarely,High,Batch Cooking,1.003636118076885
+6,2,Non-Vegetarian,Daily,Large,Low,Rarely,Low,Batch Cooking,2.3519055457843074
+2,1,Vegetarian,Bulk Buying,Medium,Medium,Rarely,Medium,Fresh Daily,1.4148254565020912
+4,1,Vegetarian,Bulk Buying,Medium,Medium,Rarely,Low,Fresh Daily,1.821622413292236
+1,2,Mixed,Bulk Buying,Small,Medium,Rarely,High,Fresh Daily,1.9158301596649387
+5,2,Non-Vegetarian,Daily,Large,Medium,Rarely,Medium,Fresh Daily,1.7182827573556212
+4,2,Vegetarian,Daily,Large,Low,Rarely,Medium,Batch Cooking,1.7746428052976515
+2,1,Mixed,Bulk Buying,Medium,Medium,Rarely,Low,Fresh Daily,1.8167220597139053
+5,3,Non-Vegetarian,Bulk Buying,Small,Low,Rarely,High,Fresh Daily,3.3045766353280874
+1,1,Mixed,Bulk Buying,Small,Medium,Rarely,Medium,Batch Cooking,1.5737529727623034
+4,3,Non-Vegetarian,Daily,Small,Medium,Rarely,High,Fresh Daily,1.7264847386428475
+1,2,Vegetarian,Daily,Medium,High,Sometimes,High,Batch Cooking,0.7463059851170903
+3,1,Non-Vegetarian,Daily,Medium,High,Often,Medium,Batch Cooking,1.2623843636547258
+2,3,Mixed,Daily,Large,High,Sometimes,Medium,Fresh Daily,0.8555180737874152
+3,2,Vegetarian,Daily,Large,Low,Often,Medium,Fresh Daily,2.7862794878488812
+3,3,Vegetarian,Weekly,Small,High,Sometimes,Medium,Batch Cooking,1.505088370562996
+4,1,Non-Vegetarian,Daily,Small,Low,Often,High,Fresh Daily,3.2994934545457286
+3,1,Vegetarian,Weekly,Large,Low,Sometimes,Low,Batch Cooking,1.387610373514915
+2,2,Non-Vegetarian,Weekly,Medium,Low,Rarely,Low,Batch Cooking,1.4391121494174548
+5,1,Non-Vegetarian,Weekly,Medium,Low,Rarely,High,Batch Cooking,2.0117526134713946
+6,1,Mixed,Daily,Medium,Low,Rarely,Medium,Fresh Daily,1.7427887123842078
+5,1,Mixed,Bulk Buying,Medium,High,Rarely,High,Fresh Daily,1.5323999448556567
+2,2,Mixed,Weekly,Large,Medium,Rarely,Low,Fresh Daily,0.6597106566132768
+3,3,Vegetarian,Weekly,Small,Low,Often,Medium,Batch Cooking,2.5774133900488985
+3,2,Mixed,Weekly,Medium,Low,Sometimes,Low,Fresh Daily,2.4104542384418046
+4,2,Vegetarian,Daily,Large,Low,Rarely,Medium,Fresh Daily,1.6581714513371135
+6,2,Mixed,Daily,Small,Medium,Rarely,Low,Batch Cooking,1.6370989439567225
+1,1,Vegetarian,Bulk Buying,Large,Low,Rarely,Low,Fresh Daily,1.29802989906442
+4,1,Mixed,Bulk Buying,Medium,High,Often,Medium,Batch Cooking,2.7672837967660397
+2,1,Mixed,Daily,Small,Low,Rarely,Medium,Fresh Daily,1.639633778757579
+2,1,Non-Vegetarian,Daily,Small,High,Rarely,Medium,Batch Cooking,0.1
+2,3,Mixed,Weekly,Small,Medium,Often,Medium,Fresh Daily,2.1175778790825888
+3,1,Vegetarian,Bulk Buying,Large,High,Sometimes,Medium,Batch Cooking,1.7451547662001778
+6,3,Non-Vegetarian,Daily,Large,Medium,Rarely,Medium,Fresh Daily,1.4083601000870183
+5,3,Mixed,Bulk Buying,Medium,High,Often,Medium,Fresh Daily,3.4098780860000386
+3,1,Vegetarian,Bulk Buying,Large,Medium,Often,Medium,Batch Cooking,2.4470779316230358
+4,2,Non-Vegetarian,Bulk Buying,Medium,Low,Rarely,Medium,Fresh Daily,2.9597770508956933
+4,3,Vegetarian,Bulk Buying,Small,Medium,Rarely,High,Batch Cooking,2.465596070101736
+5,2,Non-Vegetarian,Weekly,Medium,High,Often,Medium,Batch Cooking,1.6206573151995345
+6,3,Vegetarian,Weekly,Large,High,Rarely,Medium,Fresh Daily,1.470186858566053
+6,1,Vegetarian,Bulk Buying,Medium,High,Sometimes,High,Fresh Daily,2.678884283704793
+3,3,Mixed,Daily,Small,Low,Rarely,High,Batch Cooking,2.0457419452515127
+1,2,Mixed,Daily,Large,Low,Rarely,Medium,Batch Cooking,0.6532743498133978
+3,1,Mixed,Bulk Buying,Large,High,Rarely,Medium,Fresh Daily,0.7484023923755848
+4,2,Mixed,Weekly,Small,High,Sometimes,High,Fresh Daily,1.6843411049132069
+1,1,Vegetarian,Bulk Buying,Medium,Medium,Rarely,Low,Batch Cooking,0.7943432126975764
+4,2,Mixed,Daily,Medium,Medium,Rarely,High,Batch Cooking,1.6688664017181036
+2,3,Mixed,Weekly,Medium,High,Rarely,Medium,Batch Cooking,0.13483702593616897
+4,2,Vegetarian,Daily,Large,High,Rarely,High,Batch Cooking,0.7776647565076886
+3,3,Non-Vegetarian,Weekly,Medium,Low,Often,High,Batch Cooking,2.7159646881337194
+2,2,Non-Vegetarian,Weekly,Small,High,Rarely,Medium,Batch Cooking,0.8957254921364143
+4,2,Mixed,Bulk Buying,Medium,Low,Rarely,Medium,Fresh Daily,2.386125029671985
+3,3,Vegetarian,Bulk Buying,Small,High,Rarely,Low,Batch Cooking,1.784545632300211
+6,2,Vegetarian,Weekly,Medium,Medium,Often,High,Batch Cooking,2.764741627295749
+2,1,Non-Vegetarian,Bulk Buying,Medium,Low,Rarely,High,Fresh Daily,2.509566788263875
+5,1,Non-Vegetarian,Weekly,Large,High,Often,Medium,Fresh Daily,1.4427440303974386
+6,1,Vegetarian,Weekly,Small,Medium,Rarely,Low,Fresh Daily,1.9125936561830263
+5,1,Non-Vegetarian,Bulk Buying,Large,Medium,Rarely,Medium,Batch Cooking,2.0024273579202454
+5,2,Vegetarian,Daily,Small,Low,Sometimes,High,Fresh Daily,2.5461601350854925
+3,1,Vegetarian,Bulk Buying,Medium,Medium,Sometimes,High,Batch Cooking,2.2778750942155255
+1,2,Vegetarian,Daily,Small,High,Sometimes,Low,Fresh Daily,0.7381717597119248
+3,1,Non-Vegetarian,Weekly,Medium,Low,Often,Medium,Fresh Daily,2.679044016983096
+1,3,Mixed,Weekly,Large,High,Rarely,High,Fresh Daily,0.30695994957669615
+5,1,Mixed,Weekly,Small,Medium,Sometimes,Medium,Fresh Daily,1.9884728051078362
+6,3,Mixed,Daily,Medium,Medium,Sometimes,High,Batch Cooking,2.384572883125396
+6,1,Non-Vegetarian,Daily,Small,High,Sometimes,Low,Batch Cooking,1.2776176836280055
+4,1,Vegetarian,Bulk Buying,Medium,Low,Rarely,Medium,Fresh Daily,2.6163999929552926
+6,2,Mixed,Daily,Medium,Medium,Often,High,Batch Cooking,2.2967135023656433
+5,3,Mixed,Bulk Buying,Large,High,Rarely,Medium,Fresh Daily,2.0628960370398106
+3,3,Non-Vegetarian,Bulk Buying,Large,Medium,Often,Medium,Fresh Daily,2.584813933739429
+1,2,Mixed,Weekly,Small,Medium,Often,Low,Batch Cooking,1.9525533827222699
+6,1,Mixed,Daily,Medium,High,Sometimes,High,Fresh Daily,1.346599849732971
+5,1,Non-Vegetarian,Weekly,Medium,Medium,Rarely,Low,Batch Cooking,1.7275914061591822
+4,1,Mixed,Weekly,Large,Medium,Sometimes,High,Batch Cooking,1.668692506389061
+2,3,Mixed,Daily,Large,Medium,Often,Low,Fresh Daily,1.8636638314369567
+3,2,Mixed,Daily,Medium,Low,Rarely,High,Fresh Daily,1.731337900256161
+4,2,Non-Vegetarian,Bulk Buying,Large,Low,Often,Low,Batch Cooking,3.628386987684098
+2,1,Mixed,Daily,Large,High,Sometimes,High,Fresh Daily,0.5944628512857218
+4,3,Mixed,Daily,Small,High,Rarely,Medium,Batch Cooking,1.1615179827318953
+5,1,Mixed,Bulk Buying,Medium,High,Rarely,Low,Fresh Daily,2.2020241991710927
+4,2,Mixed,Weekly,Small,High,Often,Medium,Batch Cooking,2.041739071288453
+4,1,Non-Vegetarian,Bulk Buying,Large,High,Sometimes,Medium,Fresh Daily,1.2672548197352178
+5,2,Vegetarian,Daily,Medium,Low,Often,High,Fresh Daily,3.406232367098456
+6,1,Non-Vegetarian,Bulk Buying,Large,Medium,Sometimes,Low,Fresh Daily,2.208290517771296
+6,2,Non-Vegetarian,Bulk Buying,Medium,High,Rarely,Medium,Batch Cooking,1.5078087520048506
+2,2,Non-Vegetarian,Bulk Buying,Large,Medium,Rarely,High,Fresh Daily,1.7401034537494098
+5,3,Non-Vegetarian,Bulk Buying,Large,Low,Often,Low,Fresh Daily,3.821121861632524
+2,3,Non-Vegetarian,Daily,Large,Low,Sometimes,High,Batch Cooking,1.8971506856910585
+5,3,Vegetarian,Bulk Buying,Large,High,Often,Low,Fresh Daily,2.6109094117443736
+4,2,Vegetarian,Bulk Buying,Large,Low,Rarely,Medium,Fresh Daily,2.2575728510023745
+3,1,Vegetarian,Weekly,Medium,Low,Often,High,Batch Cooking,2.8999349392675233
+1,2,Mixed,Bulk Buying,Small,Medium,Often,High,Fresh Daily,3.3166562327059714
+4,2,Non-Vegetarian,Daily,Small,High,Rarely,High,Batch Cooking,0.917619256284073
+5,2,Non-Vegetarian,Weekly,Small,Low,Sometimes,Low,Fresh Daily,2.3119562349691973
+1,2,Mixed,Weekly,Medium,High,Often,Medium,Batch Cooking,0.9608500135269198
+2,2,Vegetarian,Daily,Small,Medium,Rarely,Low,Fresh Daily,1.4273111491257455
+4,1,Mixed,Daily,Medium,Low,Often,Medium,Batch Cooking,2.437095962346475
+6,1,Vegetarian,Weekly,Medium,High,Sometimes,Low,Batch Cooking,1.0530778159987122
+1,2,Non-Vegetarian,Bulk Buying,Large,Medium,Sometimes,High,Fresh Daily,1.4927052042831994
+5,2,Non-Vegetarian,Bulk Buying,Large,Medium,Often,Medium,Fresh Daily,2.9365209069749825
+2,3,Vegetarian,Daily,Medium,High,Sometimes,Low,Batch Cooking,1.1512331850108595
+2,3,Vegetarian,Daily,Medium,High,Rarely,Low,Batch Cooking,0.9366810078396756
+2,2,Non-Vegetarian,Daily,Large,Low,Often,Medium,Batch Cooking,2.2548120344892473
+3,3,Non-Vegetarian,Daily,Small,Medium,Sometimes,High,Batch Cooking,1.6446511245409863
+4,3,Mixed,Weekly,Large,Medium,Sometimes,Medium,Fresh Daily,1.972258832439159
+6,2,Non-Vegetarian,Daily,Small,Low,Often,Medium,Batch Cooking,3.0259856069201585
+2,2,Mixed,Bulk Buying,Small,Medium,Sometimes,Medium,Fresh Daily,2.376946266767643
+6,1,Mixed,Bulk Buying,Medium,High,Sometimes,Low,Batch Cooking,1.8023502866134238
+2,3,Mixed,Bulk Buying,Small,High,Sometimes,High,Batch Cooking,1.9976847510585922
+3,2,Mixed,Weekly,Large,Low,Sometimes,Medium,Batch Cooking,1.216374903853965
+2,2,Vegetarian,Daily,Large,Low,Sometimes,Low,Batch Cooking,1.9983538496899995
+6,3,Mixed,Bulk Buying,Small,High,Often,High,Fresh Daily,3.86668568620252
+2,3,Vegetarian,Bulk Buying,Medium,High,Often,Medium,Batch Cooking,2.7277796796779774
+6,2,Mixed,Daily,Large,High,Often,Low,Fresh Daily,2.57618507804381
+4,1,Non-Vegetarian,Daily,Large,Low,Sometimes,Low,Batch Cooking,2.1425122215613497
+5,1,Non-Vegetarian,Daily,Large,Low,Often,Medium,Batch Cooking,2.4968680750928103
+3,1,Vegetarian,Weekly,Large,Medium,Often,Low,Batch Cooking,1.7047790766830255
+6,1,Non-Vegetarian,Daily,Small,Low,Often,High,Batch Cooking,3.3456432449426208
+5,2,Non-Vegetarian,Daily,Small,Medium,Sometimes,Medium,Batch Cooking,1.6035036380404075
+3,1,Vegetarian,Bulk Buying,Medium,Low,Often,High,Fresh Daily,3.0939444940905085
+2,2,Vegetarian,Bulk Buying,Large,Low,Rarely,High,Fresh Daily,1.869519289467458
+6,1,Vegetarian,Daily,Medium,Low,Often,Medium,Batch Cooking,2.6003280333656305
+4,2,Vegetarian,Daily,Large,Low,Often,High,Fresh Daily,2.9120819870798065
+6,3,Vegetarian,Weekly,Large,Medium,Rarely,Low,Batch Cooking,1.0841148877865137
+3,3,Vegetarian,Weekly,Small,High,Sometimes,Low,Batch Cooking,1.6822359211395082
+6,1,Non-Vegetarian,Daily,Medium,Low,Sometimes,High,Fresh Daily,2.665771852605991
+5,1,Vegetarian,Daily,Medium,Low,Often,Medium,Batch Cooking,3.2011296324312304
+4,1,Non-Vegetarian,Daily,Medium,High,Rarely,High,Batch Cooking,0.1
+1,3,Non-Vegetarian,Bulk Buying,Small,Low,Sometimes,Medium,Batch Cooking,2.7565309690438293
+2,3,Mixed,Daily,Medium,Low,Often,High,Fresh Daily,3.03179034319137
+5,2,Non-Vegetarian,Bulk Buying,Large,Low,Often,Medium,Fresh Daily,3.6028821454894295
+3,2,Vegetarian,Daily,Small,Medium,Sometimes,Medium,Batch Cooking,1.538249192721742
+5,2,Non-Vegetarian,Weekly,Medium,Medium,Sometimes,High,Batch Cooking,1.8283807815519046
+6,3,Mixed,Weekly,Small,Low,Rarely,Low,Fresh Daily,2.6552728956761205
+5,2,Mixed,Weekly,Small,High,Sometimes,Medium,Fresh Daily,2.0810769214150047
+2,3,Mixed,Weekly,Medium,Low,Often,High,Fresh Daily,3.2330619496086195
+3,1,Non-Vegetarian,Daily,Medium,Low,Often,Medium,Batch Cooking,2.1196086987570535
+1,1,Mixed,Daily,Large,High,Rarely,High,Batch Cooking,0.1
+3,3,Non-Vegetarian,Bulk Buying,Medium,High,Often,Low,Batch Cooking,2.564937177481253
+6,1,Mixed,Daily,Small,Low,Often,Low,Batch Cooking,3.1953325449650496
+4,1,Mixed,Bulk Buying,Small,Low,Often,High,Fresh Daily,3.7431924992017125
+6,2,Non-Vegetarian,Bulk Buying,Small,Low,Rarely,Low,Batch Cooking,3.065157624272888
+6,3,Mixed,Bulk Buying,Medium,Medium,Sometimes,Medium,Batch Cooking,3.195520312910214
+3,2,Non-Vegetarian,Daily,Medium,Low,Rarely,Medium,Batch Cooking,1.0003333229913576
+5,1,Vegetarian,Weekly,Medium,High,Often,Low,Batch Cooking,2.144812128261848
+1,3,Vegetarian,Bulk Buying,Large,Low,Rarely,High,Batch Cooking,2.015807727252611
+1,1,Mixed,Weekly,Large,Low,Sometimes,Low,Fresh Daily,1.2828393603036483
+5,2,Mixed,Weekly,Large,Low,Rarely,Medium,Batch Cooking,1.5612571853141675
+3,2,Vegetarian,Bulk Buying,Medium,Low,Rarely,High,Fresh Daily,2.902385981169096
+4,3,Mixed,Weekly,Small,Medium,Often,Low,Batch Cooking,2.443685218079466
+1,3,Vegetarian,Weekly,Large,Low,Sometimes,High,Batch Cooking,1.769480736574093
+1,2,Mixed,Bulk Buying,Large,Medium,Often,High,Fresh Daily,2.875955965537634
+2,2,Non-Vegetarian,Daily,Small,Low,Rarely,Low,Batch Cooking,1.057505334113047
+4,1,Non-Vegetarian,Daily,Small,Low,Rarely,Medium,Fresh Daily,2.1734983965277923
+5,2,Vegetarian,Bulk Buying,Large,Medium,Rarely,Medium,Batch Cooking,2.265393025033883
+6,1,Non-Vegetarian,Weekly,Large,Medium,Rarely,High,Batch Cooking,0.9034030064235443
+5,3,Vegetarian,Weekly,Small,High,Often,High,Batch Cooking,2.2104051770527273
+3,2,Non-Vegetarian,Bulk Buying,Small,High,Often,Low,Batch Cooking,2.9835652328588687
+4,3,Mixed,Daily,Small,High,Sometimes,Low,Batch Cooking,1.6444086049587692
+1,2,Mixed,Daily,Medium,Low,Rarely,High,Batch Cooking,1.2737070671790816
+1,1,Non-Vegetarian,Bulk Buying,Small,Low,Sometimes,Medium,Batch Cooking,2.5588063190515475
+5,2,Vegetarian,Bulk Buying,Large,Medium,Sometimes,Medium,Fresh Daily,2.1880839383021033
+4,1,Mixed,Weekly,Large,High,Often,High,Fresh Daily,1.7412172806713655
+1,1,Vegetarian,Weekly,Large,Medium,Often,Medium,Batch Cooking,1.5171240664518746
+2,2,Mixed,Weekly,Medium,Low,Sometimes,High,Batch Cooking,1.7537235354840148
+2,3,Mixed,Bulk Buying,Small,Low,Rarely,High,Fresh Daily,2.3711653919044053
+5,1,Non-Vegetarian,Bulk Buying,Medium,Medium,Sometimes,High,Batch Cooking,2.2492694765207917
+6,2,Vegetarian,Weekly,Medium,Low,Often,Low,Fresh Daily,3.10562917733201
+3,2,Mixed,Weekly,Medium,Medium,Sometimes,Medium,Batch Cooking,1.8654072207130123
+2,3,Vegetarian,Daily,Medium,Medium,Sometimes,High,Batch Cooking,1.5530245886305196
+4,2,Non-Vegetarian,Weekly,Large,High,Sometimes,High,Batch Cooking,1.2664543392394574
+1,2,Vegetarian,Daily,Small,Low,Rarely,High,Batch Cooking,1.5432812598873673
+2,1,Non-Vegetarian,Daily,Small,Low,Often,Medium,Batch Cooking,2.595201842232384
+3,2,Vegetarian,Weekly,Large,Low,Sometimes,Low,Batch Cooking,1.7202355568339673
+6,2,Mixed,Bulk Buying,Large,Medium,Rarely,Low,Batch Cooking,2.6430464087403682
+4,3,Mixed,Bulk Buying,Large,Medium,Sometimes,Low,Fresh Daily,2.485113586840536
+5,2,Non-Vegetarian,Weekly,Medium,High,Sometimes,High,Batch Cooking,1.4977918619076238
+6,2,Vegetarian,Bulk Buying,Small,Low,Rarely,Medium,Fresh Daily,3.5626558413612908
+4,1,Vegetarian,Weekly,Small,Low,Sometimes,High,Fresh Daily,2.5357264130022794
+1,2,Non-Vegetarian,Bulk Buying,Small,Low,Rarely,Low,Fresh Daily,2.340044131150214
+1,2,Vegetarian,Bulk Buying,Large,Medium,Sometimes,High,Fresh Daily,1.5049685275679714
+6,1,Mixed,Daily,Medium,Low,Sometimes,Medium,Fresh Daily,2.405776756479096
+6,1,Non-Vegetarian,Bulk Buying,Medium,Low,Often,High,Fresh Daily,4.395862203179663
+1,1,Mixed,Daily,Medium,High,Often,High,Batch Cooking,1.0397562965686509
+5,3,Vegetarian,Bulk Buying,Large,Low,Often,Medium,Batch Cooking,3.4269159493461183
+2,3,Vegetarian,Weekly,Small,Low,Sometimes,Medium,Batch Cooking,2.3879539359774893
+3,1,Vegetarian,Daily,Large,High,Sometimes,Medium,Batch Cooking,0.3411121610412726
+5,2,Mixed,Bulk Buying,Medium,Low,Sometimes,High,Fresh Daily,3.6409662129518043
+6,3,Vegetarian,Daily,Large,High,Often,High,Fresh Daily,2.6294906216605707
+6,1,Non-Vegetarian,Weekly,Large,Medium,Rarely,High,Fresh Daily,1.6549112684692608
+5,2,Vegetarian,Daily,Large,Low,Often,Low,Batch Cooking,2.8685896226967404
+2,3,Mixed,Weekly,Large,Medium,Sometimes,High,Batch Cooking,1.4124972346425178
+3,2,Mixed,Bulk Buying,Large,Medium,Sometimes,Low,Fresh Daily,1.9176766094898814
+6,1,Mixed,Daily,Small,Low,Often,Low,Fresh Daily,3.865111789876762
+3,3,Non-Vegetarian,Bulk Buying,Large,Low,Sometimes,Low,Fresh Daily,2.6829166666696107
+3,2,Mixed,Daily,Large,High,Often,Low,Batch Cooking,1.2105568938320408
+2,3,Mixed,Bulk Buying,Medium,High,Often,Low,Batch Cooking,2.452114795336998
+6,1,Mixed,Bulk Buying,Medium,Medium,Rarely,Low,Batch Cooking,2.4953166565680354
+2,1,Non-Vegetarian,Weekly,Small,High,Rarely,Medium,Fresh Daily,0.9088785164748451
+5,3,Non-Vegetarian,Bulk Buying,Medium,Medium,Rarely,Low,Fresh Daily,2.7811642437964714
+2,1,Mixed,Daily,Medium,High,Often,Medium,Batch Cooking,0.8923707266336964
+6,1,Mixed,Weekly,Small,Medium,Rarely,Medium,Fresh Daily,1.685324570744064
+6,1,Vegetarian,Daily,Small,Medium,Rarely,Medium,Fresh Daily,1.9511547568348835
+2,3,Mixed,Weekly,Medium,Medium,Rarely,Medium,Batch Cooking,0.80378740663777
+3,3,Mixed,Bulk Buying,Medium,Low,Often,Medium,Fresh Daily,3.3613877774642758
+2,3,Vegetarian,Daily,Medium,High,Rarely,Medium,Fresh Daily,0.5031968305624996
+4,1,Mixed,Weekly,Medium,High,Sometimes,High,Batch Cooking,0.8458981056850128
+4,3,Vegetarian,Weekly,Large,Low,Rarely,Low,Batch Cooking,1.2306632067115983
+3,2,Non-Vegetarian,Bulk Buying,Medium,Low,Often,Low,Batch Cooking,3.5086360478044636
+6,2,Non-Vegetarian,Bulk Buying,Large,Low,Often,High,Fresh Daily,4.336064265963139
+5,1,Vegetarian,Bulk Buying,Small,High,Often,Low,Batch Cooking,2.9097080852104393
+2,3,Vegetarian,Daily,Large,Medium,Often,Low,Batch Cooking,1.4871500789637222
+2,2,Mixed,Weekly,Small,High,Often,Medium,Batch Cooking,1.6781427906305373
+4,1,Vegetarian,Weekly,Large,Low,Sometimes,Medium,Fresh Daily,1.857892242953358
+3,2,Vegetarian,Weekly,Large,High,Sometimes,Medium,Batch Cooking,1.069337317666409
+2,2,Mixed,Daily,Medium,Low,Sometimes,Low,Batch Cooking,1.310010014842915
+5,3,Vegetarian,Weekly,Small,Low,Often,Medium,Batch Cooking,3.0855039197586773
+3,2,Mixed,Weekly,Large,Medium,Often,Low,Batch Cooking,1.4790779957107967
+3,3,Non-Vegetarian,Bulk Buying,Large,Low,Rarely,Medium,Batch Cooking,2.0580619776562075
+3,3,Vegetarian,Daily,Large,Low,Often,Medium,Batch Cooking,3.0474581909069176
+3,2,Vegetarian,Weekly,Large,Medium,Rarely,Medium,Batch Cooking,0.8226654492638246
+4,2,Mixed,Bulk Buying,Small,Medium,Sometimes,Low,Fresh Daily,3.098911619076017
+6,2,Vegetarian,Weekly,Large,Medium,Sometimes,Medium,Fresh Daily,2.217002768382935
+4,2,Non-Vegetarian,Bulk Buying,Large,High,Rarely,Low,Batch Cooking,0.8225445729247585
+5,2,Vegetarian,Weekly,Small,High,Sometimes,Medium,Batch Cooking,1.2798201696309897
+4,1,Non-Vegetarian,Bulk Buying,Large,Medium,Rarely,Medium,Fresh Daily,2.0572716729292937
+1,2,Non-Vegetarian,Daily,Small,High,Sometimes,High,Fresh Daily,0.6387011997437116
+4,1,Vegetarian,Weekly,Large,Medium,Rarely,Medium,Batch Cooking,0.5447796129468263
+3,2,Non-Vegetarian,Daily,Large,High,Rarely,Low,Fresh Daily,0.7241112602500983
+6,3,Mixed,Weekly,Large,High,Rarely,High,Batch Cooking,1.3951779489991278
+4,1,Vegetarian,Bulk Buying,Large,Medium,Often,High,Fresh Daily,3.3956209628436906
+4,3,Mixed,Bulk Buying,Small,High,Sometimes,Medium,Fresh Daily,2.776312016745502
+2,1,Non-Vegetarian,Daily,Small,High,Often,Medium,Fresh Daily,1.7310637614480444
+3,1,Vegetarian,Daily,Medium,Medium,Often,Low,Batch Cooking,2.4490734659698905
+4,3,Mixed,Daily,Small,High,Rarely,Low,Fresh Daily,1.367857446484253
+6,1,Mixed,Bulk Buying,Small,High,Sometimes,High,Batch Cooking,2.7420772258505917
+3,3,Vegetarian,Bulk Buying,Large,High,Sometimes,Medium,Fresh Daily,2.1367170607768764
+6,2,Vegetarian,Daily,Small,Medium,Sometimes,High,Batch Cooking,2.157166047420314
+2,2,Mixed,Daily,Large,Medium,Rarely,High,Fresh Daily,1.0241582211056028
+4,2,Mixed,Bulk Buying,Medium,Low,Sometimes,Medium,Batch Cooking,2.7932565623658743
+2,1,Vegetarian,Bulk Buying,Small,Medium,Sometimes,Medium,Batch Cooking,2.2133180915911668
+2,2,Non-Vegetarian,Weekly,Small,Low,Often,Low,Batch Cooking,2.907360034100466
+4,3,Non-Vegetarian,Weekly,Medium,Low,Sometimes,Medium,Fresh Daily,2.731687945106252
+4,1,Mixed,Bulk Buying,Large,High,Sometimes,Medium,Fresh Daily,1.700111497547014
+4,2,Vegetarian,Weekly,Medium,Medium,Rarely,High,Fresh Daily,1.4473261429146125
+1,2,Mixed,Weekly,Medium,High,Sometimes,Low,Fresh Daily,0.2740699615645481
+1,2,Non-Vegetarian,Weekly,Large,Medium,Sometimes,Low,Fresh Daily,0.6740356447116007
+5,2,Vegetarian,Bulk Buying,Small,Medium,Sometimes,High,Fresh Daily,2.9925229741533057
+4,1,Non-Vegetarian,Weekly,Medium,Low,Rarely,Low,Fresh Daily,1.7989549949188404
+1,1,Mixed,Daily,Medium,Medium,Often,Low,Batch Cooking,1.6797864980385162
+1,2,Mixed,Daily,Large,Low,Rarely,Low,Fresh Daily,0.6623934567362648
+3,1,Non-Vegetarian,Bulk Buying,Medium,Low,Rarely,High,Fresh Daily,2.8138000693663994
+4,2,Non-Vegetarian,Bulk Buying,Medium,Low,Often,Medium,Batch Cooking,3.8768848085315923
+1,1,Vegetarian,Weekly,Medium,Medium,Often,High,Batch Cooking,1.9854269860724079
+6,1,Mixed,Daily,Small,High,Sometimes,High,Batch Cooking,1.4527507781703521
+5,1,Non-Vegetarian,Daily,Large,High,Often,High,Fresh Daily,1.9055982324190022
+2,1,Non-Vegetarian,Bulk Buying,Medium,Medium,Sometimes,High,Batch Cooking,1.4375702162564021
+6,1,Vegetarian,Daily,Small,Medium,Rarely,Low,Batch Cooking,2.086687071948849
+1,2,Vegetarian,Daily,Medium,Low,Often,Low,Batch Cooking,2.599199409317815
+4,1,Mixed,Weekly,Medium,Low,Often,Medium,Fresh Daily,2.7180697459678274
+4,2,Mixed,Bulk Buying,Small,High,Sometimes,Medium,Batch Cooking,2.0556425115312034
+1,1,Vegetarian,Daily,Large,Low,Rarely,Medium,Batch Cooking,0.7088437515235825
+2,3,Mixed,Weekly,Large,High,Often,High,Batch Cooking,1.4754335224085613
+2,3,Non-Vegetarian,Weekly,Small,Medium,Sometimes,High,Fresh Daily,2.1409958766843995
+6,1,Non-Vegetarian,Bulk Buying,Large,Medium,Often,High,Batch Cooking,2.6669333616772897
+6,2,Vegetarian,Weekly,Large,Medium,Rarely,Low,Batch Cooking,1.0441817938044098
+2,3,Mixed,Bulk Buying,Medium,High,Sometimes,High,Batch Cooking,1.5227803937368591
+5,1,Vegetarian,Bulk Buying,Large,High,Often,Low,Batch Cooking,2.113595531681887
+2,1,Vegetarian,Weekly,Large,High,Sometimes,Low,Fresh Daily,0.16334563928633528
+5,3,Mixed,Weekly,Medium,Low,Often,High,Fresh Daily,2.878867560713134
+5,3,Non-Vegetarian,Bulk Buying,Small,Low,Sometimes,Low,Fresh Daily,3.8926087274911954
+6,3,Vegetarian,Daily,Large,Medium,Sometimes,Low,Batch Cooking,1.7351674384614784
+2,3,Vegetarian,Weekly,Small,High,Rarely,High,Fresh Daily,1.220209336943474
+2,2,Mixed,Weekly,Large,High,Sometimes,Medium,Fresh Daily,0.49207117303672254
+1,2,Vegetarian,Daily,Medium,Low,Often,High,Batch Cooking,2.412692994494327
+2,3,Vegetarian,Daily,Small,High,Rarely,Low,Batch Cooking,0.686116247146301
+1,3,Non-Vegetarian,Weekly,Medium,High,Often,High,Fresh Daily,1.2242036587971288
+5,1,Mixed,Weekly,Large,Low,Often,High,Batch Cooking,2.3688344115044395
+5,2,Non-Vegetarian,Bulk Buying,Large,Medium,Rarely,Low,Fresh Daily,2.4301418647631294
+1,2,Vegetarian,Daily,Large,High,Sometimes,Medium,Fresh Daily,0.137922338048599
+6,2,Mixed,Weekly,Medium,High,Often,High,Fresh Daily,2.223363289917925
+4,3,Mixed,Bulk Buying,Medium,Medium,Rarely,Low,Batch Cooking,2.5979636510347306
+4,3,Vegetarian,Weekly,Large,Medium,Often,High,Batch Cooking,2.0838916739338718
+5,3,Non-Vegetarian,Weekly,Small,High,Often,Medium,Fresh Daily,2.5186086877907585
+2,3,Vegetarian,Weekly,Small,Low,Sometimes,High,Fresh Daily,2.1998569637298386
+4,2,Non-Vegetarian,Weekly,Small,Low,Often,Medium,Batch Cooking,3.2264144561232593
+2,1,Mixed,Weekly,Medium,Medium,Often,Medium,Batch Cooking,1.7694306001622295
+3,3,Mixed,Weekly,Small,Medium,Sometimes,High,Batch Cooking,1.272033049715352
+3,3,Vegetarian,Daily,Large,High,Rarely,Low,Batch Cooking,0.1
+1,3,Mixed,Daily,Medium,Medium,Rarely,High,Batch Cooking,0.7699277569419206
+2,2,Vegetarian,Daily,Large,High,Often,Medium,Fresh Daily,0.9709561109133273
+5,1,Non-Vegetarian,Bulk Buying,Medium,Medium,Often,Medium,Batch Cooking,3.3499232884746712
+2,2,Mixed,Bulk Buying,Medium,Low,Rarely,Low,Batch Cooking,2.113882772427242
+6,1,Non-Vegetarian,Daily,Small,Low,Often,Medium,Batch Cooking,3.497356217535711
+2,2,Mixed,Weekly,Medium,Medium,Sometimes,Medium,Batch Cooking,1.0699270917608952
+3,1,Mixed,Daily,Small,Low,Rarely,High,Batch Cooking,1.0773504786262569
+2,2,Non-Vegetarian,Daily,Large,High,Sometimes,Low,Fresh Daily,0.5918634482227549
+3,3,Non-Vegetarian,Weekly,Small,High,Rarely,High,Fresh Daily,1.210259404528503
+4,1,Non-Vegetarian,Weekly,Small,Low,Rarely,Medium,Batch Cooking,1.675986460980519
+3,2,Mixed,Weekly,Large,High,Rarely,Medium,Batch Cooking,0.25340133584091284
+5,1,Mixed,Weekly,Large,High,Sometimes,High,Fresh Daily,0.8638279147936757
+5,3,Non-Vegetarian,Daily,Large,Low,Sometimes,High,Fresh Daily,2.2297530663962957
+6,2,Mixed,Bulk Buying,Medium,Medium,Often,Medium,Fresh Daily,4.097583921026843
+1,1,Non-Vegetarian,Weekly,Small,High,Sometimes,Medium,Fresh Daily,1.11206740508936
+3,3,Vegetarian,Daily,Medium,High,Often,Medium,Fresh Daily,2.0557689401355668
+6,3,Non-Vegetarian,Daily,Large,Medium,Sometimes,Medium,Fresh Daily,2.118217476815693
+6,1,Vegetarian,Weekly,Medium,High,Often,Medium,Batch Cooking,2.3058343850684646
+4,2,Mixed,Weekly,Medium,Low,Sometimes,High,Fresh Daily,2.669707690451952
+3,2,Mixed,Weekly,Small,Medium,Rarely,Low,Fresh Daily,1.7855176504115333
+4,2,Vegetarian,Daily,Medium,Low,Sometimes,Low,Fresh Daily,2.459409635923838
+1,3,Vegetarian,Daily,Medium,Low,Often,Medium,Fresh Daily,3.0084899568852657
+2,1,Vegetarian,Weekly,Large,Medium,Often,Medium,Fresh Daily,2.2263377867017016
+5,1,Vegetarian,Weekly,Small,High,Often,Low,Fresh Daily,2.0747466699228254
+5,3,Vegetarian,Bulk Buying,Large,High,Rarely,Low,Batch Cooking,1.982827202661163
+6,3,Vegetarian,Daily,Large,High,Sometimes,Low,Batch Cooking,1.0946051478307552
+2,2,Mixed,Daily,Small,Low,Often,Low,Batch Cooking,2.608213633585818
+5,1,Mixed,Weekly,Small,Medium,Often,Medium,Fresh Daily,3.1611255718660964
+2,3,Mixed,Daily,Small,High,Often,Low,Fresh Daily,2.0269674945367524
+1,3,Non-Vegetarian,Daily,Large,High,Rarely,High,Fresh Daily,0.1
+6,1,Non-Vegetarian,Bulk Buying,Large,High,Often,Medium,Fresh Daily,3.206510342263823
+6,3,Vegetarian,Weekly,Medium,Medium,Rarely,Low,Batch Cooking,1.6543138850833932
+4,2,Non-Vegetarian,Daily,Large,Medium,Sometimes,Medium,Batch Cooking,1.4008589603247985
+6,3,Non-Vegetarian,Bulk Buying,Medium,Low,Often,High,Batch Cooking,3.924687448158578
+6,3,Mixed,Weekly,Medium,High,Rarely,Medium,Batch Cooking,0.8521009637892145
+5,3,Mixed,Daily,Medium,Low,Rarely,High,Fresh Daily,1.752920903126684
+4,3,Mixed,Weekly,Small,Low,Sometimes,Medium,Fresh Daily,2.8223974451940386
+3,1,Non-Vegetarian,Bulk Buying,Medium,Low,Often,High,Batch Cooking,3.590340603775773
+6,3,Mixed,Bulk Buying,Large,Medium,Rarely,Medium,Fresh Daily,2.5109743767000214
+3,2,Non-Vegetarian,Daily,Large,Low,Often,High,Batch Cooking,2.075346649325649
+6,1,Vegetarian,Weekly,Small,High,Often,High,Batch Cooking,2.4166088400742947
+5,3,Non-Vegetarian,Weekly,Large,High,Sometimes,Low,Fresh Daily,1.6487023086491424
+5,2,Mixed,Weekly,Small,High,Rarely,Low,Fresh Daily,1.0113640111573687
+6,2,Vegetarian,Daily,Medium,High,Sometimes,High,Batch Cooking,1.2852348759270353
+5,1,Vegetarian,Weekly,Large,High,Sometimes,Medium,Fresh Daily,0.9520673858087002
+1,1,Vegetarian,Weekly,Medium,Medium,Sometimes,Medium,Fresh Daily,0.600488010533284
+4,2,Vegetarian,Weekly,Medium,High,Often,Low,Batch Cooking,1.3956098114708522
+3,2,Non-Vegetarian,Daily,Small,Low,Rarely,High,Fresh Daily,2.2936609804677683
+2,3,Mixed,Daily,Medium,Low,Sometimes,Medium,Batch Cooking,2.128671774658429
+3,1,Mixed,Daily,Medium,High,Rarely,High,Batch Cooking,0.1
+1,3,Non-Vegetarian,Daily,Large,High,Often,Medium,Fresh Daily,1.5614922531188253
+3,3,Non-Vegetarian,Bulk Buying,Small,High,Rarely,Low,Batch Cooking,1.9524637844941028
+2,2,Vegetarian,Weekly,Large,High,Sometimes,Medium,Batch Cooking,0.7306568275633029
+4,2,Vegetarian,Daily,Small,Medium,Rarely,Low,Fresh Daily,1.9575005110344148
+6,2,Vegetarian,Bulk Buying,Medium,Medium,Often,Low,Fresh Daily,3.7040315823594017
+4,1,Vegetarian,Weekly,Medium,Medium,Sometimes,Medium,Batch Cooking,0.9772454422950622
+3,1,Vegetarian,Daily,Small,Medium,Sometimes,Low,Fresh Daily,1.3968940438642323
+4,3,Mixed,Bulk Buying,Large,Medium,Sometimes,High,Batch Cooking,1.9222486246738266
+2,2,Mixed,Daily,Small,High,Often,Medium,Fresh Daily,1.6384217965607655
+4,3,Mixed,Weekly,Small,Medium,Often,Medium,Fresh Daily,3.207056276719329
+3,3,Mixed,Bulk Buying,Large,High,Sometimes,Low,Fresh Daily,1.425698461239893
+5,3,Vegetarian,Weekly,Small,High,Rarely,Medium,Fresh Daily,1.574364106369761
+5,2,Mixed,Bulk Buying,Medium,High,Sometimes,Medium,Batch Cooking,2.1188214441712843
+3,3,Mixed,Bulk Buying,Small,Low,Sometimes,Low,Fresh Daily,3.252067552551281
+4,2,Non-Vegetarian,Bulk Buying,Medium,High,Rarely,High,Batch Cooking,1.8530867558619755
+2,3,Mixed,Weekly,Medium,Medium,Rarely,Low,Batch Cooking,1.444213982078157
+3,1,Non-Vegetarian,Daily,Small,Low,Sometimes,High,Fresh Daily,1.736819500712942
+3,1,Vegetarian,Daily,Large,High,Sometimes,High,Batch Cooking,0.1
+5,3,Vegetarian,Weekly,Medium,Medium,Often,Medium,Fresh Daily,2.4515170191463342
+1,1,Vegetarian,Daily,Large,Medium,Often,High,Batch Cooking,1.589268771404427
+4,2,Vegetarian,Daily,Medium,High,Rarely,High,Fresh Daily,1.2799791284646016
+3,3,Mixed,Daily,Medium,Medium,Often,High,Fresh Daily,2.1105936639392824
+5,1,Vegetarian,Bulk Buying,Medium,Medium,Often,Low,Fresh Daily,3.618348419106144
+2,1,Vegetarian,Weekly,Small,High,Sometimes,Low,Batch Cooking,0.6246194695135829
+2,1,Mixed,Daily,Large,Medium,Sometimes,Low,Batch Cooking,0.8532808019682692
+2,1,Mixed,Bulk Buying,Small,Low,Sometimes,Medium,Batch Cooking,2.7532354820727094
+1,2,Vegetarian,Weekly,Medium,Low,Rarely,High,Fresh Daily,1.2671919752708627
+4,1,Mixed,Bulk Buying,Small,Low,Often,Medium,Fresh Daily,3.8675313200421146
+3,3,Mixed,Daily,Medium,High,Rarely,Medium,Batch Cooking,0.8757975544219129
+6,2,Mixed,Daily,Small,High,Rarely,High,Fresh Daily,1.4452939245423668
+6,1,Non-Vegetarian,Daily,Medium,High,Rarely,Low,Batch Cooking,1.0047841083932267
+4,1,Non-Vegetarian,Bulk Buying,Large,High,Rarely,Low,Fresh Daily,1.1929067491715513
+3,2,Non-Vegetarian,Bulk Buying,Large,High,Rarely,Low,Fresh Daily,1.3815463100938807
+3,2,Vegetarian,Daily,Large,Medium,Rarely,Medium,Fresh Daily,0.7066480510864831
+2,3,Vegetarian,Bulk Buying,Large,Medium,Sometimes,Medium,Fresh Daily,2.230976104426494
+2,1,Non-Vegetarian,Daily,Medium,High,Sometimes,High,Batch Cooking,0.8408828854025163
+1,3,Mixed,Bulk Buying,Large,Low,Sometimes,High,Batch Cooking,2.426720063793373
+1,2,Non-Vegetarian,Daily,Large,Low,Rarely,High,Fresh Daily,1.0851524928622782
+5,1,Mixed,Daily,Medium,Low,Rarely,High,Batch Cooking,1.350252633640837
+6,1,Non-Vegetarian,Daily,Medium,High,Rarely,Medium,Batch Cooking,1.0005961338885248
+4,2,Vegetarian,Bulk Buying,Small,Medium,Sometimes,Medium,Fresh Daily,3.1344225973268
+5,1,Vegetarian,Weekly,Large,High,Often,High,Fresh Daily,1.9305433233415799
+6,1,Vegetarian,Weekly,Medium,Low,Rarely,High,Fresh Daily,2.260251825044656
