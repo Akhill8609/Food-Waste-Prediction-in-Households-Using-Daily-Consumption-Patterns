@@ -23,7 +23,7 @@ st.markdown("""
 # Show dataset preview
 # -----------------------------
 st.subheader("Dataset Preview")
-st.dataframe(df, height=400)  # ✅ updated to allow scrolling by fixing the height
+st.dataframe(df.head(10))
 
 # -----------------------------
 # Average Food Waste Charts
@@ -61,6 +61,14 @@ try:
     with open('scaler.pkl', 'rb') as f:
         scaler = pickle.load(f)
         
+    # We also need to load the encoders.
+    # Since you used a single LabelEncoder object in a loop,
+    # you'd need to save one for each column.
+    # A more robust approach would be to use a dictionary to save them.
+    # However, since you didn't, let's assume we can reconstruct it for now
+    # as the order of categories is fixed in this dataset.
+    
+    # Let's create an encoder object to mimic the one used in training
     le = LabelEncoder()
     
     categorical_cols = ['Meal_Type','Shopping_Habit','Storage_Availability',
@@ -89,12 +97,18 @@ input_dict = {
 
 input_df = pd.DataFrame(input_dict)
 
+# Get the original dataset for fitting the LabelEncoder on the full category set
 train_df_full = pd.read_csv('food_waste_dataset.csv')
 
+# Preprocess categorical columns using the same method as training
 for col in categorical_cols:
+    # We must fit the LabelEncoder on the full set of categories from the training data
+    # to ensure consistency.
     le.fit(train_df_full[col])
+    # Now, transform the user input using this fitted encoder
     input_df[col] = le.transform(input_df[col])
 
+# Scale numeric columns using the loaded scaler
 numeric_cols = ['Household_Size', 'Daily_Meal_Count']
 input_df[numeric_cols] = scaler.transform(input_df[numeric_cols])
 
@@ -114,10 +128,15 @@ if st.button("Predict"):
 # Complete Food Waste Prediction Project (Training Script)
 # ===============================
 
+# 1️⃣ Import Libraries
+import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import pickle
+
 from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
@@ -126,7 +145,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 # ===============================
 # 2️⃣ Generate Dataset
 # ===============================
-num_samples = 1000  # ✅ increased dataset size
+num_samples = 400
 
 df = pd.DataFrame({
     'Household_Size': np.random.randint(1, 7, num_samples),
@@ -140,8 +159,10 @@ df = pd.DataFrame({
     'Cooking_Preference': np.random.choice(['Fresh Daily', 'Batch Cooking'], num_samples)
 })
 
+# Baseline food waste
 baseline_waste = 0.5 + df['Household_Size']*0.2 + df['Daily_Meal_Count']*0.15
 
+# Feature adjustments
 waste_adjustments = np.zeros(num_samples)
 waste_adjustments += df['Shopping_Habit'].apply(lambda x: 0.8 if x=='Bulk Buying' else 0)
 waste_adjustments += df['Awareness_of_Waste_Management'].apply(lambda x: -0.5 if x=='High' else 0.5 if x=='Low' else 0)
@@ -149,10 +170,13 @@ waste_adjustments += df['Leftovers_Frequency'].apply(lambda x: 0.7 if x=='Often'
 waste_adjustments += df['Cooking_Preference'].apply(lambda x: 0.2 if x=='Fresh Daily' else 0)
 waste_adjustments += df['Storage_Availability'].apply(lambda x: -0.2 if x=='Large' else 0.2 if x=='Small' else 0)
 
+# Add random noise
 random_noise = np.random.uniform(-0.5,0.5,num_samples)
 
+# Final food waste
 df['Food_Waste_kg_per_Week'] = np.maximum(0.1, baseline_waste + waste_adjustments + random_noise)
 
+# Save to CSV
 df.to_csv('food_waste_dataset.csv', index=False)
 print("Dataset generated and saved as 'food_waste_dataset.csv'")
 
@@ -163,17 +187,20 @@ df = pd.read_csv('food_waste_dataset.csv')
 print("\nDataset preview:")
 print(df.head())
 
+# Basic statistics
 print("\nDataset info:")
 print(df.info())
 print("\nDataset description:")
 print(df.describe())
 
+# Plot distribution of target
 plt.figure(figsize=(8,5))
 sns.histplot(df['Food_Waste_kg_per_Week'], bins=20, kde=True)
 plt.title("Distribution of Food Waste")
 plt.xlabel("Food Waste (kg/week)")
 plt.show()
 
+# Boxplots
 plt.figure(figsize=(8,5))
 sns.boxplot(x='Household_Size', y='Food_Waste_kg_per_Week', data=df)
 plt.title("Household Size vs Food Waste")
@@ -191,15 +218,18 @@ categorical_cols = ['Meal_Type','Shopping_Habit','Storage_Availability',
                     'Awareness_of_Waste_Management','Leftovers_Frequency',
                     'Income_Range','Cooking_Preference']
 
+# Dictionaries to save the LabelEncoders
 label_encoders = {}
 for col in categorical_cols:
     le = LabelEncoder()
     df[col] = le.fit_transform(df[col])
     label_encoders[col] = le
 
+# Features and target
 X = df.drop('Food_Waste_kg_per_Week', axis=1)
 y = df['Food_Waste_kg_per_Week']
 
+# Scale numeric columns
 numeric_cols = ['Household_Size','Daily_Meal_Count']
 scaler = StandardScaler()
 X[numeric_cols] = scaler.fit_transform(X[numeric_cols])
@@ -212,14 +242,17 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # ===============================
 # 6️⃣ Model Training
 # ===============================
+# Linear Regression
 lr_model = LinearRegression()
 lr_model.fit(X_train, y_train)
 y_pred_lr = lr_model.predict(X_test)
 
+# Decision Tree
 dt_model = DecisionTreeRegressor(random_state=42)
 dt_model.fit(X_train, y_train)
 y_pred_dt = dt_model.predict(X_test)
 
+# Random Forest
 rf_model = RandomForestRegressor(n_estimators=100, random_state=42)
 rf_model.fit(X_train, y_train)
 y_pred_rf = rf_model.predict(X_test)
@@ -242,6 +275,7 @@ evaluate(y_test, y_pred_rf, "Random Forest")
 # ===============================
 # 8️⃣ Visualizations
 # ===============================
+# Predicted vs Actual (Random Forest)
 plt.figure(figsize=(8,5))
 plt.scatter(y_test, y_pred_rf, alpha=0.6, color='green')
 plt.xlabel("Actual Food Waste")
@@ -250,6 +284,7 @@ plt.title("Random Forest: Actual vs Predicted")
 plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'r--')
 plt.show()
 
+# Feature importance (Random Forest)
 importances = rf_model.feature_importances_
 feat_imp_df = pd.DataFrame({'Feature': X.columns, 'Importance': importances}).sort_values(by='Importance', ascending=False)
 
@@ -257,6 +292,8 @@ plt.figure(figsize=(10,5))
 sns.barplot(x='Importance', y='Feature', data=feat_imp_df)
 plt.title("Feature Importance (Random Forest)")
 plt.show()
+
+
 
 # ===============================
 # Outro Section
@@ -269,8 +306,6 @@ st.markdown("""
     </h3>
 </div>
 """, unsafe_allow_html=True)
-
-
 
 # ===============================
 # Step 9: Interpretation of Results & Saving Files
@@ -305,7 +340,4 @@ with open('scaler.pkl', 'wb') as f:
 with open('label_encoders.pkl', 'wb') as f:
     pickle.dump(label_encoders, f)
 
-
 print("Model, scaler, and label encoders saved successfully!")
-
-
